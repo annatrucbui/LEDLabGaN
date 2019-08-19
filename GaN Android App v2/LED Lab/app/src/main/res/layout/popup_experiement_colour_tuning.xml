@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/PopupContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/experiment_colour_tuning_rounded_box"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="15dp"/>
+
+        <ImageButton
+            android:id="@+id/CancelPopupButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/experiment_colour_tuning_popup_cancel"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/TopText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14sp"
+            android:text="@string/ColourTuningExplanation1"
+            app:layout_constraintLeft_toLeftOf="@+id/PopupContainer"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="@+id/PopupContainer"
+            app:layout_constraintBottom_toTopOf="@+id/LeftImage"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/LeftImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/experiment_colour_tuning_pn_junction"
+            app:layout_constraintLeft_toLeftOf="@+id/PopupContainer"
+            app:layout_constraintRight_toLeftOf="@+id/RightImage"
+            app:layout_constraintTop_toBottomOf="@+id/TopText"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/BottomText"/>
+
+        <ImageView
+            android:id="@+id/RightImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:src = "@drawable/experiment_colour_tuning_multiple_quantum_wells"
+            app:layout_constraintLeft_toRightOf="@+id/LeftImage"
+            app:layout_constraintRight_toRightOf="@+id/PopupContainer"
+            app:layout_constraintTop_toBottomOf="@+id/TopText"
+            app:layout_constraintBottom_toTopOf="@+id/BottomText"/>
+
+        <TextView
+            android:id="@+id/BottomText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="14sp"
+            android:text="@string/ColourTuningExplanation2"
+            app:layout_constraintLeft_toLeftOf="@+id/PopupContainer"
+            app:layout_constraintTop_toBottomOf="@+id/LeftImage"
+            app:layout_constraintRight_toRightOf="@+id/PopupContainer"
+            app:layout_constraintBottom_toBottomOf="@+id/PopupContainer"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+</FrameLayout>

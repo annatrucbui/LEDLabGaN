@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ClassPage"
+    android:background="@drawable/background_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cambridge.materials.galliumnitride.app.ledlab.ClassPage">
+
+    <LinearLayout
+        android:id="@+id/TitleBanner"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        android:layout_marginEnd="5dp"
+
+        android:layout_marginStart="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/backButton"
+            android:background="@drawable/ic_button_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            layout="@layout/title_bar"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintLeft_toRightOf="@+id/backButton"
+            app:layout_constraintRight_toLeftOf="@+id/homeButton"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/homeButton"
+
+            android:background="@drawable/ic_button_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TopicTitle"
+        android:background="@android:color/transparent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/PageAnimation"
+        android:layout_marginStart="10dp"
+        android:textSize="32sp"
+        android:textColor="@color/indigo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleBanner"/>
+
+    <ImageView
+        android:id="@+id/blackboard"
+        android:background="@drawable/blueboard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PageAnimation"
+        app:layout_constraintLeft_toLeftOf="@+id/PageAnimation"
+        app:layout_constraintRight_toRightOf="@+id/PageAnimation"
+        app:layout_constraintTop_toTopOf="@+id/PageAnimation"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/PageAnimation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TopicTitle"
+        app:layout_constraintBottom_toTopOf="@+id/PageText"/>
+
+    <ImageButton
+        android:id="@+id/PreviousPageButton"
+        android:background="@drawable/ic_button_previous_class"
+        android:visibility="gone"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/PageText"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/ClassCompleteButton"
+        android:background="@drawable/ic_button_class_complete"
+        android:visibility="gone"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/PageText"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/NextPageButton"
+        android:background="@drawable/ic_button_next_class"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/PageText"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/PageText"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,3 @@
+// Must be fewer than 80 characters
+
+Learn all you can about LEDs with easy-to-follow classes and digital experiments

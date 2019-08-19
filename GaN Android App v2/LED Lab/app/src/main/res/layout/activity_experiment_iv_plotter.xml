@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_laboratory">
+
+    <LinearLayout
+        android:id="@+id/TitleBanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/backButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_button_back"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            layout="@layout/title_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5"
+            app:layout_constraintLeft_toRightOf="@+id/backButton"
+            app:layout_constraintRight_toLeftOf="@+id/homeButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_button_home"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/IVPlotterTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/IVPlotterTitle"
+        android:textColor="@color/indigo"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleBanner"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <ImageView
+        android:id="@+id/Axes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/experiment_iv_plotter_graph_axes"
+        app:layout_constraintBottom_toTopOf="@id/CircuitDiagram"
+        app:layout_constraintDimensionRatio="W,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IVPlotterTitle"
+        app:layout_constraintVertical_weight="4" />
+
+    <ImageView
+        android:id="@+id/GraphPlotLeft"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/CircuitDiagram"
+        app:layout_constraintEnd_toStartOf="@id/GraphPlotRight"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="@id/Axes"
+        app:layout_constraintRight_toLeftOf="@id/GraphPlotRight"
+        app:layout_constraintStart_toStartOf="@id/Axes"
+        app:layout_constraintTop_toBottomOf="@id/IVPlotterTitle" />
+
+    <ImageView
+        android:id="@+id/GraphPlotRight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/CircuitDiagram"
+        app:layout_constraintEnd_toEndOf="@id/Axes"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/GraphPlotLeft"
+        app:layout_constraintRight_toRightOf="@id/Axes"
+        app:layout_constraintStart_toEndOf="@id/GraphPlotLeft"
+        app:layout_constraintTop_toBottomOf="@id/IVPlotterTitle" />
+
+    <ImageView
+        android:id="@+id/GraphPlotFull"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/experiment_iv_plotter_graph_plot_full"
+        app:layout_constraintBottom_toBottomOf="@id/Axes"
+        app:layout_constraintEnd_toEndOf="@id/Axes"
+        app:layout_constraintLeft_toLeftOf="@id/Axes"
+        app:layout_constraintRight_toRightOf="@id/Axes"
+        app:layout_constraintStart_toStartOf="@id/Axes"
+        app:layout_constraintTop_toTopOf="@id/Axes" />
+
+
+    <ImageView
+        android:id="@+id/CircuitDiagram"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="12"
+        android:adjustViewBounds="true"
+        android:src="@drawable/experiment_iv_plotter_circuit_open"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/VoltageSlider"
+        app:layout_constraintTop_toBottomOf="@+id/Axes"
+        app:layout_constraintVertical_weight="3" />
+
+    <TextView
+        android:id="@+id/SwitchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OnOff"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/CircuitSwitch"
+        app:layout_constraintLeft_toRightOf="@+id/CircuitDiagram" />
+
+    <Switch
+        android:id="@+id/CircuitSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/SwitchText"
+        android:layout_toRightOf="@+id/SwitchText"
+        android:theme="@style/IVPlotterSwitchTheme"
+        app:layout_constraintLeft_toRightOf="@+id/SwitchText"
+        app:layout_constraintTop_toBottomOf="@+id/Axes" />
+
+    <TextView
+        android:id="@+id/VoltageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/VoltageHeader"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/CircuitDiagram"
+        app:layout_constraintTop_toBottomOf="@+id/CircuitSwitch" />
+
+    <TextView
+        android:id="@+id/VoltageOutput"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/appBackground"
+        android:padding="2dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:text="@string/Zero"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/VoltageHeader"
+        app:layout_constraintLeft_toRightOf="@+id/VoltageHeader" />
+
+    <SeekBar
+        android:id="@+id/VoltageSlider"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:max="10"
+        android:progress="5"
+        android:progressDrawable="@color/transparent"
+        android:theme="@style/IVPlotterSliderTheme"
+        app:layout_constraintHorizontal_weight="4"
+        app:layout_constraintLeft_toRightOf="@+id/CircuitDiagram"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VoltageOutput" />
+
+    <TextView
+        android:id="@+id/MinVoltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MinusFive"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@+id/VoltageSlider"
+        app:layout_constraintTop_toBottomOf="@+id/VoltageSlider" />
+
+    <TextView
+        android:id="@+id/NoVoltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Zero"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintLeft_toRightOf="@+id/MinVoltage"
+        app:layout_constraintRight_toLeftOf="@+id/MaxVoltage"
+        app:layout_constraintTop_toBottomOf="@+id/VoltageSlider" />
+
+    <TextView
+        android:id="@+id/MaxVoltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/Five"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VoltageSlider" />
+
+    <TextView
+        android:id="@+id/CurrentHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/CurrentHeader"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/MinVoltage"
+        app:layout_constraintTop_toBottomOf="@+id/NoVoltage" />
+
+    <TextView
+        android:id="@+id/CurrentOutput"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/CurrentHeader"
+        android:layout_toRightOf="@+id/CurrentHeader"
+        android:background="@color/appBackground"
+        android:padding="2dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:text="@string/Zero"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/CurrentHeader"
+        app:layout_constraintLeft_toRightOf="@+id/CurrentHeader" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+</android.support.constraint.ConstraintLayout>

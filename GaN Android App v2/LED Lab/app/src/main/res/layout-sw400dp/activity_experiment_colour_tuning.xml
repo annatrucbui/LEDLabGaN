@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_laboratory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+        android:id = "@+id/TitleBanner"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/backButton"
+            android:background="@drawable/ic_button_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <include
+            layout="@layout/title_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toRightOf="@+id/backButton"
+            app:layout_constraintRight_toLeftOf="@+id/homeButton"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/homeButton"
+            android:background="@drawable/ic_button_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ColourTuningTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/ColourTuningTitle"
+        android:textSize="28sp"
+        android:textColor="@color/indigo"
+        app:layout_constraintBottom_toTopOf="@+id/MicrographHeader"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleBanner"/>
+
+    <TextView
+        android:id="@+id/MicrographHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/MicrographHeader"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Micrograph"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ColourTuningTitle"/>
+
+    <RelativeLayout
+        android:id="@+id/Micrograph"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/QuantumWellHeader"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MicrographHeader">
+
+        <ImageView
+            android:background="@color/darkGrey"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/LeftTransparentPane"
+                android:background="@color/transparent"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/LeftWellBlur"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/LeftWellBlur"
+                android:background="@drawable/experiment_colour_tuning_quantum_well_blur_left"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/LeftTransparentPane"
+                app:layout_constraintRight_toLeftOf="@+id/QuantumWellMicrographCenter"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/QuantumWellMicrographCenter"
+                android:background="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/LeftWellBlur"
+                app:layout_constraintRight_toLeftOf="@+id/RightWellBlur"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/RightWellBlur"
+                android:background="@drawable/experiment_colour_tuning_quantum_well_blur_right"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/QuantumWellMicrographCenter"
+                app:layout_constraintRight_toLeftOf="@+id/RightTransparentPane"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/RightTransparentPane"
+                android:background="@color/transparent"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/RightWellBlur"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/TopDarkLayer"
+            android:background="@color/darkGrey"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/GaNLabelLeft"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@string/GalliumNitride"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/InGaNLabel"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/InGaNLabel"
+                android:gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:text="@string/IndiumGalliumNitride"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/GaNLabelLeft"
+                app:layout_constraintRight_toLeftOf="@+id/GaNLabelRight"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/GaNLabelRight"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@string/GalliumNitride"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/InGaNLabel"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/GaNLabelFull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/GalliumNitride"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/QuantumWellHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/QuantumWellHeader"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/QuantumWell"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Micrograph"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/QuantumWell"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/ColourPatch"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuantumWellHeader"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/QuantumWell1"
+            android:background="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/QuantumWell2"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/QuantumWell2"
+            android:background="@color/black"
+            android:layout_width="4dp"
+            android:layout_height="50dp"
+            app:layout_constraintLeft_toRightOf="@+id/QuantumWell1"
+            app:layout_constraintRight_toLeftOf="@+id/QuantumWell3"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/QuantumWell3"
+            android:background="@color/black"
+            android:layout_width="100dp"
+            android:layout_height="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/QuantumWell2"
+            app:layout_constraintLeft_toRightOf="@+id/QuantumWell2"
+            app:layout_constraintRight_toLeftOf="@+id/QuantumWell4"/>
+
+        <ImageView
+            android:id="@+id/QuantumWell4"
+            android:background="@color/black"
+            android:layout_width="4dp"
+            android:layout_height="50dp"
+            app:layout_constraintLeft_toRightOf="@+id/QuantumWell3"
+            app:layout_constraintRight_toLeftOf="@+id/QuantumWell5"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/QuantumWell5"
+            android:background="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            app:layout_constraintLeft_toRightOf="@+id/QuantumWell4"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/ColourPatch"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ColourTuningInput"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuantumWell"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/ColourTuningInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ColourPatch">
+
+        <TextView
+            android:id="@+id/CompositionHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/CompositionHeader"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/CompositionBar"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/CompositionBar"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/WidthHeader"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <TextView
+                android:id="@+id/CompositionMin"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/min_composition"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <SeekBar
+                android:id="@+id/CompositionSlider"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/CompositionMin"
+                app:layout_constraintRight_toLeftOf="@+id/CompositionMax"
+                app:layout_constraintTop_toTopOf="parent"
+                android:theme="@style/ColourTuningSliderTheme"/>
+
+            <TextView
+                android:id="@+id/CompositionMax"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/max_composition"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/WidthHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/WidthHeader"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/WidthBar"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/WidthBar"
+            android:orientation="horizontal"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <TextView
+                android:id="@+id/WidthMin"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/min_width"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <SeekBar
+                android:id="@+id/WidthSlider"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/WidthMin"
+                app:layout_constraintRight_toLeftOf="@+id/WidthMax"
+                app:layout_constraintTop_toTopOf="parent"
+                android:theme="@style/ColourTuningSliderTheme"/>
+
+            <TextView
+                android:id="@+id/WidthMax"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/max_width"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

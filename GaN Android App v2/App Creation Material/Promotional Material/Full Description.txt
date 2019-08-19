@@ -1,0 +1,7 @@
+//Must be fewer than 4000 characters
+
+With this easy-to-use educational app, anyone can learn all they want to about LED technology, from how LEDs are made to why they are so great. Our range of short classes, that can be completed in minutes, teach you about a wide range of LED related topics whilst our interactive, digital experiments give you a hands-on experience to solidify that knowledge.
+
+For each topic, there are three classes that get progressively more difficult, so you can learn the very basics of conduction and/or complicated ideas about trapping charge carriers in quantum wells in one app. If, however, you're looking to learn about something in particular, you can also search for keywords in the app and find related pages, classes and experiments.
+
+There will be regular updates with new classes and new experiments from the Cambridge Centre of Gallium Nitride, a research group that's part of the University of Cambridge's Department of Materials Science and Metallurgy. Gallium Nitride is used to make most white LEDs, which now surround us in everyday life, and is considered the most important semiconductor after silicon.

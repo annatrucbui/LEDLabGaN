@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_laboratory">
+
+    <LinearLayout
+        android:id="@+id/TitleBanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/backButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_button_back"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            layout="@layout/title_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5"
+            app:layout_constraintLeft_toRightOf="@+id/backButton"
+            app:layout_constraintRight_toLeftOf="@+id/homeButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_button_home"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pTypeTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/pTypeTitle"
+        android:textColor="@color/indigo"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleBanner"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+
+    <ImageView
+        android:id="@+id/pTypeBandDiagram"
+        android:layout_width="279dp"
+        android:layout_height="279dp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pTypeTitle"
+        app:srcCompat="@drawable/experiment_temperature_dependence_ptype_0" />
+
+    <ImageView
+        android:id="@+id/pTypeFullPlot"
+        android:layout_width="254sp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0sp"
+        android:layout_marginRight="0sp"
+        app:layout_constraintBottom_toBottomOf="@id/pTypeAxes"
+        app:layout_constraintLeft_toLeftOf="@id/pTypeAxes"
+        app:layout_constraintRight_toRightOf="@id/pTypeAxes"
+        app:layout_constraintTop_toTopOf="@id/pTypeAxes"
+        app:srcCompat="@drawable/experiment_temperature_dependence_ntype_fullplot" />
+
+    <ImageView
+        android:id="@+id/pTypeAxes"
+        android:layout_width="254dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pTypeBandDiagram"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/experiment_temperature_dependence_graph_plot_axes" />
+
+
+    <ImageView
+        android:id="@+id/pTypeThermometer"
+        android:layout_width="141dp"
+        android:layout_height="228dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/thermometer1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/pTypeAxes"
+        app:layout_constraintTop_toBottomOf="@+id/pTypeBandDiagram"
+        app:layout_constraintVertical_bias="0.269" />
+
+
+    <SeekBar
+        android:id="@+id/TemperatureSliderpType"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="215dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginBottom="40sp"
+        android:max="20"
+        android:progress="0"
+        android:progressDrawable="@drawable/seek_style"
+        android:progressTint="@color/red"
+        android:rotation="-90"
+        android:theme="@style/Widget.MaterialComponents.Snackbar"
+        android:thumbTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toEndOf="@+id/pTypeAxes"
+        app:layout_constraintTop_toBottomOf="@+id/pTypeBandDiagram"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/pTypeMaxTemperature"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/MaxTemp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/pTypeThermometer"
+        app:layout_constraintTop_toTopOf="@+id/pTypeThermometer" />
+
+    <TextView
+        android:id="@+id/pTypeMinTemperature"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginBottom="8dp"
+        android:text="@string/AbsoluteZero"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pTypeThermometer"
+        app:layout_constraintEnd_toEndOf="@+id/pTypeThermometer"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TemperatureSlider" />
+
+
+    <TextView
+        android:id="@+id/TemperaturepTypeOutput"
+        android:layout_width="41dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="18dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="18dp"
+        android:background="#8b0000"
+        android:padding="2dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:text="@string/AbsoluteZero"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pTypeThermometer"
+        app:layout_constraintEnd_toEndOf="@+id/pTypeThermometer"
+        app:layout_constraintTop_toTopOf="@+id/pTypeThermometer" />
+</android.support.constraint.ConstraintLayout>

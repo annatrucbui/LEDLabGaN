@@ -1,0 +1,21 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="IVPlotterSwitchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+    <style name="IVPlotterSliderTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- You can also set colorControlNormal, colorControlActivated, colorControlHighlight, and colorSwitchThumbNormal. -->
+        <item name="colorControlNormal">@color/red</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="ColourTuningSliderTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- You can also set colorControlNormal, colorControlActivated, colorControlHighlight, and colorSwitchThumbNormal. -->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+</resources>

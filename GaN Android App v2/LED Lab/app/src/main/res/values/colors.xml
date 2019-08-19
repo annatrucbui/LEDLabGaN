@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Standard Colours
+    <color name="darkRed">#E3370A</color>
+    <color name="orange">#ff8100</color>
+    <color name="limeGreen">#B2FA25</color>
+    <color name="green">#96FF00</color>
+    <color name="turquoise">#18F4B7</color>
+    <color name="aquamarine">#18F4CD</color>
+    <color name="lightBlue">#00F9FF</color>
+    <color name="fadedBlue">#B5E9FF</color>
+    <color name="tintedBlue">#00AFFF</color>
+    <color name="indigo">#510B9A</color>
+    <color name="purple">#B000FF</color>
+    <color name="pink">#FD00FF</color>
+    <color name="cherryPink">#F42E7E</color>
+    <color name="magenta">#E11BB1</color>
+    <color name="brickRed">#B60707</color>
+    <color name="royalBlue">#001EFF</color>
+    <color name="yellow">#FFFF00</color>
+
+    //Shades of Grey
+    <color name="black">#000000</color>
+    <color name="jetGrey">#343434</color>
+    <color name="darkGrey">#474747</color>
+    <color name="grey">#898989</color>
+    <color name="tintedLightGrey">#AFAFAF</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //pastel pallette
+    <color name="charcoal">#36454F</color>
+    <color name="coolGrey">#9090C0</color>
+    <color name="roseQuartz">#AA98A9</color>
+    <color name="blueGrey">#6699CC</color>
+
+
+    //Standard Colours
+    <color name="offWhite">#f1f1f1</color>
+
+    //Standard Colours
+    <color name="blue">#009FFF</color>
+    <color name="darkGreen">#16300C</color>
+    <color name="darkOrange">#c66400</color>
+    <color name="darkPink">#b6138e</color>
+    <color name="darkPurple">#770C9C</color>
+    <color name="deepPurple">#500769</color>
+    <color name="darkBlue">#170B9A</color>
+    <color name="dullBlue">#0b4b9a</color>
+    <color name="brown">#982A2A</color>
+    <color name="palePink">#ffb6ff</color>
+    <color name="fadedPink">#f1ccf1</color>
+    <color name="newRoyalBlue">#0051ff</color>
+    <color name="red">#f20000</color>
+    <color name="deepRed">#dc0000</color>
+    <color name="greyBlue">#0083be</color>
+    <color name="paleBlue">#92eafc</color>
+    <color name="blueCharcoal">#0f4061</color>
+    <color name="brightOrange">#fdb630</color>
+    <color name="cherryRed">#f42e56</color>
+
+
+    <color name="lightGrey">#dfdfdf</color>
+    <color name="darkYellow">#003f3f</color>
+
+
+    //Neon Colours
+    <color name="neonBlue">#00E5F5</color>
+    <color name="neonGreen">#103C05</color>
+    <color name="neonPink">#FF33FF</color>
+    <color name="neonPurple">#9900FF</color>
+    <color name="neonOrange">#FF9300</color>
+
+    //Background Colours
+    <color name="appBackground">#ffeeee</color>
+    <color name = "classroomBackground">#ccfffc</color>
+    <color name="contactUsBackground">#cf5afd</color>
+    <color name="transparent">#00000000</color>
+</resources>

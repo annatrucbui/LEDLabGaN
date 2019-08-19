@@ -1,0 +1,470 @@
+<resources>
+    //Titles
+    <string name="app_name">Cambridge LED Lab</string>
+    <string name="reduced_app_name">LED Lab</string>
+    <string name="by">"by : "</string>
+    <string name="creator">"Cambridge Centre for Gallium Nitride"</string>
+    <string name="ClassroomTitle">Classroom</string>
+    <string name="GamesTitle">Games</string>
+    <string name="SearchTitle">Search</string>
+    <string name="LaboratoryTitle">Laboratory</string>
+    <string name="ContactUsTitle">Contact Us</string>
+
+    //Classroom
+    <string name="ClassroomDescription">
+        "Learn all about LEDs, how they're made and why they're so great with these short classes that can be finished in minutes. \n\nBefore you start, you should probably know:"
+    </string>
+    <string name="dash">"- "</string>
+    <string name="ClassroomContentsExplanation1">"For each topic there are three classes that get progressively more difficult."</string>
+    <string name="ClassroomContentsExplanation2">"Each class builds on knowledge from previous classes in each topic."</string>
+    <string name="ClassroomContentsExplanation3">"Some topics rely on knowledge from other topics; check by holding over a topic."</string>
+    <string name="PopupDescription">" Before starting this topic, you \n should probably know:"</string>
+    <string name="NoExpectationsDescription">" No previous knowledge is \n expected. You can try this \n one now!"</string>
+
+    //Inside An Led Bulb Class 1
+    <string name="ClassText_InsideLed1_Page1">
+        An LED bulb may look simple from the outside but a lot of complex science is needed to create one. This class looks at what you see when you take an LED bulb apart.
+    </string>
+    <string name="ClassText_InsideLed1_Page2">
+        You may notice that LED bulbs look a lot like ordinary bulbs. This is due to the design of the outer light diffuser, which helps the light spread out. Once
+        the light diffuser is removed you\'re left with what looks like a yellow ping pong ball. This is a cap containing yellow phosphor.
+    </string>
+    <string name="ClassText_InsideLed1_Page3">
+        The yellow phosphor is essential for producing white light because the LED chips underneath only produce blue light. The yellow phosphor absorbs some of this
+        blue light and emits many different colours of light. Our eyes view this combination of colours as white light.
+    </string>
+    <string name="ClassText_InsideLed1_Page4">
+        If the yellow phosphor is now removed, you can see many individual LED chips which are responsible for producing the light. Each one is very small but produces
+        more than 100 lumens of light. They are highly efficient but a little heat is still produced, which can badly reduce efficiency, so a metal heat sink is used to
+        absorb heat away from the LED.
+    </string>
+    <string name="ClassText_InsideLed1_Page5">
+        "By looking at these real images, you can get a better sense of what these components really look like."
+    </string>
+
+    //Inside An Led Bulb Class 2
+    <string name="ClassText_InsideLed2_Page1">
+        An LED chip produces the light in an LED bulb. This class looks at the structure of one to discover a little about how they work.
+    </string>
+    <string name="ClassText_InsideLed2_Page2">
+        After the polymer dome on top of the chip is removed, we find the chip has an array of electrodes. Some of these are n-electrodes which
+        provide an input of negative charge carriers to the LED and some are p-electrodes which provide an input of positive charge carriers.
+    </string>
+    <string name="ClassText_InsideLed2_Page3">
+        If we cut the chip and look at the cross-section, we see layers of the semiconductor material from which the LED is made. In many LED bulbs this will be
+        p-GaN (doped gallium nitride with excess positive charge carriers) and n-GaN (doped gallium nitride with excess of negative charge carriers). Where these
+        layers meet the negative and positive charge carriers can combine and release light.
+    </string>
+    <string name="ClassText_InsideLed2_Page4">
+        "When we look at an actual photo of this, we see that it looks a little more complicated but the layers of p-GaN and n-GaN are still visible. Between them,"
+        "a thin, dark line is just about visible, which is the active region, where negative and positive charge carriers combine."
+    </string>
+    <string name="ClassText_InsideLed2_Page5">
+        "In LEDs, the negative charge carriers are electrons, but the positive charge carriers aren't particles; they are the absence of an electron, known as a hole. Holes can be"
+        "difficult to visualise, but for most situations you can imagine them to be like a particle with opposite charge to an electron."
+    </string>
+
+    //Inside An Led Bulb Class 3
+    <string name="ClassText_InsideLed3_Page1">
+        "We've briefly looked at how LEDs produce light, but in this class we'll look even closer at a p-n junction to discover how quantum wells are used to help electrons and"
+        "holes combine."
+    </string>
+    <string name="ClassText_InsideLed3_Page2">
+        "Free electrons and holes in a material will have different energies, and the difference is related to something called the band gap. A quantum well is"
+        "made when a material with smaller band gap is sandwiched between materials with larger band gaps. Since the electrons and holes are also more stable in the lower band gap"
+        "material, they are trapped in the quantum well."
+    </string>
+    <string name="ClassText_InsideLed3_Page3">
+        "When we look on the nanoscale at a p-n junction in an LED we see a few extremely thin layers. At the center of these are the thinnest, stripy-looking layers, which are"
+        "alternating layers of gallium nitride and indium gallium nitride. These layers are just a few nanometers thick and form a region of multiple quantum wells."
+    </string>
+    <string name="ClassText_InsideLed3_Page4">
+        "The indium gallium nitride has lower band gap than the gallium nitride, so electrons and holes get trapped there making it more likely that they will combine and"
+        "release light. This vastly increases the efficiency of LEDs and actually makes LED light bulbs practical."
+    </string>
+    <string name="ClassText_InsideLed3_Page5">
+        "When the electron and the hole combine, the energy difference between them is equal to the energy of the photon that is released. This means by finding"
+        "a way to change the band gap of a material, we can change the colour of the light that is produced by the LED. This idea is explored in 'colour tuning'."
+    </string>
+
+    //Applications of LEDs Class 1
+    <string name="ClassText_LedApplications1_Page1">
+        "For most people, LED lights are an unseen part of day-to-day life; whether its a torch or a streetlight, LEDs are used for most modern lighting needs. In this class we'll"
+        "look at how LEDs are used for lighting in a variety of circumstances and why they are the preferred choice."
+    </string>
+    <string name="ClassText_LedApplications1_Page2">
+        "Nowadays almost any traditional light bulb can be replaced with an LED equivalent. There is very little price difference whilst LEDs have the benefit of having a long life"
+        "(so you replace them less often) and being more efficient (so you save money on electricity). Many people also prefer the brighter appearance of LEDs and the fact that they "
+        "respond almost instantaneously to being switched on and off."
+    </string>
+    <string name="ClassText_LedApplications1_Page3">
+        "Most streetlights in the UK are now LEDs, mainly because electricity costs can be reduced by up to 85% which is thousands of pounds each year for most councils, and LEDs need to be"
+        "replaced much less often so further savings are made."
+    </string>
+    <string name="ClassText_LedApplications1_Page4">
+        "An increasing number of car headlights are made with LED bulbs, and while bulb efficiency and lifetime are beneficial for the car owner, the reason many manufacturers are"
+        "switching to LEDs is that the bulbs and the reflectors in the headlights can be smaller. This means manufacturers have more flexibility with the design."
+    </string>
+    <string name="ClassText_LedApplications1_Page5">
+        "New christmas tree lights usually use LED technology because they can be made brighter and require minimal electronics where old tree lights would require a large box of"
+        "controls. For users, the most important advantage of LED tree lights is that they produce much less heat so the risk of a fire is greatly reduced."
+    </string>
+    <string name="ClassText_LedApplications1_Page6">
+        "Another place where less heat is a major advantage is in theaters and on other stages. Traditional stage lights get very hot, whereas LED stage lights do not, making LEDs"
+        "better for the actors, and stage crew that have to move them around. LED stage lights also allow for a full spectrum of colours without the use of filters."
+    </string>
+
+    //Applications of LEDs Class 2
+    <string name="ClassText_LedApplications2_Page1">
+        "Apart from lighting, LEDs are incredibly important for visual signals/indications to humans and digital systems. Many of these applications are more revolutionary than"
+        "LEDs have been in lighting because there was no equivalent before LEDs, and only LEDs have made them possible."
+    </string>
+    <string name="ClassText_LedApplications2_Page2">
+        "One such new application, is in long-range high frequency digital data communication. The most well-known example is in optical fibre technology where lasers and LEDs play"
+        "a vital role, but Li-Fi (similar to Wi-Fi but with visible light) and remote controls used LEDs too. In the case of remote controls, infrared LEDs (with wavelength 940nm) are used to"
+        "transfer a digital signal thats invisible to the eye."
+    </string>
+    <string name="ClassText_LedApplications2_Page3">
+        "Many modern traffic lights use LED bulbs because they are brighter and more efficient which makes them cheaper to run and more easy to see on sunny days. In some countries where"
+        "it regularly snows, traffic lights are purposely not changed to LEDs because the heat produced by traditional bulbs helps melt the snow around the traffic light and make them"
+        "more easy to see."
+    </string>
+    <string name="ClassText_LedApplications2_Page4">
+        "When the technology was suitable, LEDs were quickly used for brake lights on cars. The primary reason for this is that LEDs can be switched on much faster (about 0.5"
+        "seconds faster) so drivers have more time to react to a car braking in front of them. This makes car accidents less likely to happen."
+    </string>
+
+    //Applications of LEDs Class 3
+    <string name="ClassText_LedApplications3_Page1">
+        "LEDs have applications in a variety of fields where it is not at all obvious that they would be useful. You can find LEDs in entertainment devices, at festivals or even in mobile hospitals."
+    </string>
+    <string name="ClassText_LedApplications3_Page2">
+        "Many screens on TVs and phones are lit by LEDs providing a bright, high contrast image with minimal energy wastage and very little heat which would be a concern for safety. LEDs can be made"
+        "very small which allows for high resolution screens too."
+    </string>
+    <string name="ClassText_LedApplications3_Page3">
+        "The successor to DVDs, blu-ray discs, store bits of data much closer together and so require light of a much smaller wavelength to read the data without interference. Blue-violet"
+        "diode lasers (where light is produced in a p-n junction like in LEDs) are used instead of the red lasers used in DVD players."
+    </string>
+    <string name="ClassText_LedApplications3_Page4">
+        "Ultraviolet LEDs made of gallium nitride have the potential to be used widely in the medical industry and by charities in third world countries for sterilisation. The ultraviolet light kills germs"
+        "making medical equipment safe to use and water safe to drink."
+    </string>
+    <string name="ClassText_LedApplications3_Page5">
+        "Very low power LEDs are slowly replacing phosphorescent chemicals in glowsticks, because they can now be made more cheaply with LEDs and it avoids the risk of the chemicals"
+        "leaking if the glowstick is broken."
+    </string>
+
+    //Conduction 1
+    <string name="ClassText_Conduction1_Page1">
+        "Insulators have a high electrical resistance, meaning charge carriers cannot move over long distances, even when a voltage is applied. This means no measurable current can flow inside an insulator."
+    </string>
+    <string name="ClassText_Conduction1_Page2">
+        "Charge carriers, such as electrons, are immobile in insulators and they are said not to be free. For example, in diamond, the electrons form strong covalent bonds between the nuclei and cannot"
+        "move to carry the current."
+    </string>
+    <string name="ClassText_Conduction1_Page3">
+        "Conductors have a low electrical resistance so that very little opposes the motion of charge carriers that are forced to flow by an applied voltage. This can be measured as a current."
+    </string>
+    <string name="ClassText_Conduction1_Page4">
+        "Most people know that metals are conductors but any material with free charge carriers can be conductive. In metals, some electrons are not bound to any particular atomic nuclei so"
+        "they are free to move and allow for conduction, but molten sodium chloride is also a conductor because the charged ions that are bound to each other as a solid become free to move."
+    </string>
+    <string name="ClassText_Conduction1_Page5">
+        "Depending on the conditions, semiconductors can behave either as an insulator or a conductor. If the conditions provide enough energy (e.g. with high temperatures), charge carriers"
+        "in semiconductors can become mobile and conduction can occur, but otherwise the semiconductor will behave as an insulator."
+    </string>
+    <string name="ClassText_Conduction1_Page6">
+        "In covalent semiconductors, the outermost electrons form bonds to neighbouring atoms and therefore aren’t free, but with extra energy (e.g. heat) some bonds can break and free up"
+        "electrons to allow for conduction. When the electron breaks free, it leaves behind a “hole”. This hole acts like a positively charged particle which can also move to carry the current."
+    </string>
+
+    //Conduction 2
+    <string name="ClassText_Conduction2_Page1">
+        "Quantum physics can be very scary but one of the most important results from it is that electrons can only exist in certain orbits around an atomic nucleus. An electron must have the right"
+        "amount of energy (no more, no less) to be in an orbit, and each orbit for atoms of each element is associated with a unique energy value. These are called the energy levels of an atom."
+    </string>
+    <string name="ClassText_Conduction2_Page2">
+        "Within the energy levels, electrons can only occupy certain states defined by (amongst other things) their energy and position. The Pauli Exclusion Principle tells us that in each state we can"
+        "only have two electrons, one with spin up and one with spin down."
+    </string>
+    <string name="ClassText_Conduction2_Page3">
+        "In bulk materials, where there can be 10^28 atoms per m^3, the energy levels of each atom will shift slightly away from that of a completely independent atom so that the Pauli exclusion principle is obeyed."
+    </string>
+    <string name="ClassText_Conduction2_Page4">
+        "This means that the energy levels that electrons can occupy in a bulk material are very tightly bunched together in bands. They are so closely bunched together that in many cases, the bands behave"
+        "as continuous regions where electrons can have any energy within the band."
+    </string>
+
+    //Conduction 3
+    <string name="ClassText_Conduction3_Page1">
+        "We can now describe conduction in terms of these electron bands, where electrons can occupy states inside the bands but they are forbidden from occupying states between these bands. This forbidden region,"
+        "where electrons cannot occupy states, is called the band gap."
+    </string>
+    <string name="ClassText_Conduction3_Page2">
+        "In order for a material to be conductive, the band structure must be such that there is a band which is not completely filled with electrons: a partially filled band. This allows some electrons to gain"
+        "energy and move throughout the material."
+    </string>
+    <string name="ClassText_Conduction3_Page3">
+        "In metals, the highest energy band with electrons in is always partially filled which is why metals are always conductive. This is true at all temperatures."
+    </string>
+    <string name="ClassText_Conduction3_Page4">
+        "Semiconductors have a full band of electrons at absolute zero (very low temperature), but they also have a small band gap so that as the semiconductor heats up, electrons are excited across the bandgap,"
+        "creating partially filled bands and allowing the semiconductor to conduct."
+    </string>
+    <string name="ClassText_Conduction3_Page5">
+        "In insulators, the band gap is very large. This means that even at relatively high temperatures, electrons do not have enough energy to cross the gap and conduction cannot occur."
+    </string>
+    <string name="ClassText_Conduction3_Page6">
+        "In semiconductors, the lower energy band, which is full at absolute zero, is called the valence band, and the higher energy band that electrons are excited into is called the conduction band."
+    </string>
+
+    //Doping Class 1
+    <string name="ClassText_Doping1_Page1">
+        "Apart from LED, semiconductors are extensively used in the field of electronics. Semiconductors are classified according to the materials that make them. Each type has different properties and is used in different applications."
+    </string>
+    <string name="ClassText_Doping1_Page2">
+        "Intrinsic semiconductors are made from materials in their pure forms (undoped). Examples include pure Si, pure Ge, pure GaAs. A Si atom has 4 valence electrons, all of which are used in bonding with its 4 nearest neighbours."
+    </string>
+    <string name="ClassText_Doping1_Page3">
+        "The valence electrons used in bonding cannot carry a current. Only when there is enough thermal energy, the valence electrons can escape the bond to travel around the lattice freely and carry an electric current."
+    </string>
+    <string name="ClassText_Doping1_Page4">
+        "Extrinsic semiconductors are made by doping. By adding small fraction of impurity atoms with 1 extra or 1 fewer valence electron to a pure material (Si), we can increase the number of charge carriers."
+    </string>
+    <string name="ClassText_Doping1_Page5">
+        "When an P atom (5 valence electrons) is added to Si, it brings with it 1 extra electron. The semiconductor has more mobile charges so it conducts better. We call this an N-type semiconductor."
+    </string>
+    <string name="ClassText_Doping1_Page6">
+        "When an Al atom (3 valence eletrons) is added to Si, a hole is created due to the lack of electron. This still increases the number of charge carrier because an electron can move in to the hole. Equivalently, we can talk about the hole moving around, acting like a positive charge. Therefore, we call this an P-type semiconductor."
+    </string>
+
+    //Doping Class 2
+    <string name="ClassText_Doping2_Page1">
+        " We have learned in Conduction lessons that a semiconductor has a band gap between the valence band and the conduction band. Electrons are not permitted in the band gap and only electrons in the conduction band can conduct electricity."
+    </string>
+    <string name="ClassText_Doping2_Page2">
+        "When electrons from valence band are excited to conduction band, they leave behind holes in the valence band. This means that the number of holes and free electrons working as charge carriers in an intrinsic semiconductors are the same."
+    </string>
+    <string name="ClassText_Doping2_Page3">
+        "When an electric field is applied: electrons at the bottom of the conduction band moves in one direction. The electrons moves fill the holes, which is equivalent to the holes at the top of the valence band moving in the opposite direction."
+    </string>
+    <string name="ClassText_Doping2_Page4">
+        "In a N-type semiconductor, the extra valence electrons from impurities fill the energy level just below the conduction band called the donor level. These donor electrons can be excited, i.e donated,  to the conduction band with little thermal energy supplied."
+    </string>
+    <string name="ClassText_Doping2_Page5">
+        "In a P-type semiconductor, the holes created from impurities fill the energy level just above the valence band called the acceptor level. These acceptor hole can be excited into the valence band, or in other words they can accept electron from the valence band, with little thermal energy supplied."
+    </string>
+    <string name="ClassText_Doping2_Page6">
+        "In an N-type semiconductor, electrons are the majority charge carriers. In a P-type semiconductor, holes are the majority charge carriers. When a donor state empties or an acceptor state fills, it is ionised."
+    </string>
+
+    //Doping Class 3
+    <string name="ClassText_Doping3_Page1">
+        "In this lesson, we are going to look at the temperature dependence of charge carrier concentration in a semiconductor. Electron density is the number of conduction electrons per unit volume."
+    </string>
+    <string name="ClassText_Doping3_Page2">
+        "For an intrinsic semiconductor, below a certain temperature, there is not enough energy to excite across the band gap."
+    </string>
+    <string name="ClassText_Doping3_Page3">
+        "As temperature increases passing a certain point, the electrons in valence band overcome the energy barrier and moves up to the conduction band. The carrier concentration therefore increases."
+    </string>
+    <string name="ClassText_Doping3_Page4">
+        "The behaviour of an extrinsic semiconductor is different. Take an N-type semiconductor for example. As temperature increases, the donor electrons overcome the small barrier and moves up to  the conduction band, so the carrier concentration increases."
+    </string>
+    <string name="ClassText_Doping3_Page5">
+        "Once all the electrons have been excited from the donor levels, all dopants are ionised and therefore “exhausted”. Any further increase in temperature causes little change in number of electrons conducting in the conduction band."
+    </string>
+    <string name="ClassText_Doping3_Page6">
+        "At high temperature, there is enough energy to excite electrons from the valence band straight to the conduction band across the band gap. The extrinsic semiconductor now behaves like an intrinsic one."
+    </string>
+    <string name="ClassText_Doping3_Page7">
+    "The case is very similar with a p-type semiconductor, with the charge carriers being holes in this case."
+    </string>
+
+
+    //pn junction Class 1
+    <string name="ClassText_pnjunction1_Page1">
+        "In the Doping lessons, we have learned that n-type and p-type semiconductors can be made by adding dopants to a pure intrinsic semiconductor."
+        "In this lesson, we are going to learn about p-n junctions - the basic building blocks of many electrical devices including LEDs, transistors, solar cells."
+    </string>
+    <string name="ClassText_pnjunction1_Page2">
+        "If we add a lot of P atoms to a block of pure Si, the resulting n-type semiconductor will has a lot of free electrons acting as charge carriers."
+        "If we add a lot of N atoms to a block of pure Si, the resulting p-type semiconductor will has a lot of holes acting as charge carriers."
+    </string>
+    <string name="ClassText_pnjunction1_Page3">
+        "A p-n junction is formed when a p-type and a n-type semiconductor join together. Free electrons from the n-type semiconductors diffuse across the junction and combine with holes available in the p-type semiconductors."
+    </string>
+    <string name="ClassText_pnjunction1_Page4">
+        "The region of the n-type semiconductor near the junction becomes positively charged as it has lost electrons. The region of the p-type semiconductor near the junction becomes negatively charged as it has gained electrons."
+    </string>
+    <string name="ClassText_pnjunction1_Page5">
+        "The thin layer of the crystal lattice between these charges has been depleted of majority carriers, thus, is known as the depletion region. It becomes an intrinsic semiconductor, nearly insulating to separate the conductive n-type and the p-type regions."
+    </string>
+
+
+    //pn junction Class 2
+    <string name="ClassText_pnjunction2_Page1">
+        "In this lesson, we’re going to look at how a p-n junction is formed using band diagram. A n-type semiconductor has free electrons in the conduction band as the major charge carriers. A p-type semiconductor has holes in the valence band as the major charge carriers."
+    </string>
+    <string name="ClassText_pnjunction2_Page2">
+        "When the 2 semiconductors are initially joined together, n-type electrons will flow into the p-type valence band to lower their energy. Meanwhile, p-type holes flow in the opposite direction."
+    </string>
+    <string name="ClassText_pnjunction2_Page3">
+        "Charge carrier density is therefore depleted at the contact. The width of the depletion region is typically in the range 10nm-1um. A free charge now requires some extra energy to overcome this region with very few charge carriers."
+    </string>
+    <string name="ClassText_pnjunction2_Page4">
+        "As the chemical potentials of the 2 types of semiconductor come to equilibrium, the band structures are deformed accordingly. Now we can imagine the electrons having to “go uphill” to move from the n-type to the p-type side."
+    </string>
+
+
+    //pn junction Class 3
+    <string name="ClassText_pnjunction3_Page1">
+        "At equilibrium, there is a potential barrier for electrons to diffuse from  the n-type to the p-type semiconductor and holes to diffuse in the opposite direction. If the n-type region is connected to the positive terminal of a battery and the p-type is connected to the negative side, this is called reverse bias."
+    </string>
+    <string name="ClassText_pnjunction3_Page2">
+        "In such reverse-biased situation, the potential barriers for both electrons and holes are increased. The depletion region becomes wider."
+    </string>
+    <string name="ClassText_pnjunction3_Page3">
+        "The overall current-voltage characteristic of the p-n junction is shown in the graph. The diffusion current is reduced which results in a very small net flow of electrons."
+    </string>
+    <string name="ClassText_pnjunction3_Page4">
+        "When the voltage is applied the opposite way instead, electrons want to move from n-type to p-type side. This is called forward bias."
+    </string>
+    <string name="ClassText_pnjunction3_Page5">
+        "In such forward-biases situation, the potential barriers for both electrons and holes are decreased. The depletion layer becomes narrower."
+    </string>
+    <string name="ClassText_pnjunction3_Page6">
+         " "
+    </string>
+    <string name="ClassText_pnjunction3_Page7">
+        "The diffusion current is reduced which results in a large net flow of electrons. "
+    </string>
+    <string name="ClassText_pnjunction3_Page8">
+        "An increase in strength of the reverse biasing will eventually lead to an increase in the current due to dielectric breakdown of the semiconductor. The voltage at which this occurs is called the breakdown voltage."
+    </string>
+
+    //Class List Item
+    <string name="Level1ButtonText">I</string>
+    <string name="Level2ButtonText">II</string>
+    <string name="Level3ButtonText">III</string>
+
+    //Search
+    <string name="Search">Search</string>
+    <string name="Go">Go</string>
+    <string name="NoSearchInput">"Search for key words to find related pages, classes, experiments and games"</string>
+    <string name="NoSearchOutput">"Sorry, your search couldn't be found anywhere in the app"</string>
+    <string name="SearchOutputStart">"Your search returned "</string>
+    <string name="Results">" results ("</string>
+    <string name="Result">" result ("</string>
+    <string name="Pages">" pages"</string>
+    <string name="Page">" page"</string>
+    <string name="Classes">" classes"</string>
+    <string name="Class">" class"</string>
+    <string name="Games">" games"</string>
+    <string name="Game">" game"</string>
+    <string name="Experiments">" experiments"</string>
+    <string name="Experiment">" experiment"</string>
+    <string name="And">"and "</string>
+
+
+    //Quiz
+    <string name="QuizDescription">Test your knowledge for each topic with the quizzes available. Each quiz is designed to reinforce the corresponding lessons taught in the Classroom. There are also interesting trivia questions about the area as well.</string>
+    <string name="QuizTitle">Quizzes</string>
+
+
+    //Laboratory
+    <string name="LaboratoryDescription">Explore this range of fun and simple interactive, digital experiments to get you familiar with how LEDs are made and how they behave.</string>
+
+    //Colour Tuning Experiment
+    <string name="ColourTuningTitle">Colour Tuning</string>
+    <string name="ColourTuningExplanation1">
+        "At the heart of all p-n junctions in LEDs, there is a region of multiple quantum wells, where electrons and holes combine to release light. The colour of this light is"
+        "determined by the energy difference between the electron and the hole, which is determined by the dimensions of the quantum well."
+    </string>
+    <string name="ColourTuningExplanation2">
+        "Deeper, wider quantum wells cause lower energy light to be emitted. In LEDs made of gallium nitride and indium gallium nitride, we can make the quantum well wider by"
+        "making the layer of InGaN thicker, and by increasing the amount of indium in the InGaN layer, we can make the quantum well deeper."
+    </string>
+    <string name="MicrographHeader">Micrograph:</string>
+    <string name="GalliumNitride">GaN</string>
+    <string name="IndiumGalliumNitride">InGaN</string>
+    <string name="QuantumWellHeader">Quantum Well Diagram:</string>
+    <string name="WidthHeader">"Width (nm):"</string>
+    <string name="CompositionHeader">"Composition (InxGa(1-x)N):"</string>
+
+    //IV Plotter Experiment
+    <string name="IVPlotterTitle">I-V Plotter</string>
+    <string name="OnOff">Off/On:</string>
+    <string name="VoltageHeader">Voltage (V):</string>
+    <string name="Zero">0.0</string>
+    <string name="MinusFive">-5.0</string>
+    <string name="Five">"5.0 "</string>
+    <string name="CurrentHeader">Current (mA):</string>
+
+    //LED Switch Experiment
+    <string name="LEDSwitchTitle">LED Switch</string>
+    <string name="CurrentBulbText">Bulb being replaced:</string>
+    <string name="NewBulbText">Bulb replacement:</string>
+    <string name="BulbNumberText">Number of bulbs being replaced:</string>
+    <string name="ElectricityCostText">Cost of electricity (p/kWh):</string>
+    <string name="DailyTimeText">Daily average time each light bulb is on (hrs):</string>
+    <string name="DailyTimeHint">[remember to average over the whole year]</string>
+    <string name="LEDBulbText">Standard LED Bulb</string>
+    <string name="LEDCostText">"Cost of LED Bulb: "</string>
+    <string name="CurrentUse">\  Current Usage: </string>
+    <string name="CurrentCost"> \n  Current Cost: £</string>
+    <string name="LEDUse">\  Usage with LEDs: </string>
+    <string name="LEDCost">\n  Cost with LEDs: £</string>
+    <string name="Savings">\  Savings: </string>
+    <string name="PaybackTime">\n  Payback Time:</string>
+    <string name="Explanation">See how much you could save by changing your old bulbs for new LED bulbs.</string>
+    <string name="InvalidInputMessage">\n Fill in the data above to get a result. \n</string>
+
+    //Temperature Dependence of Semiconductors Experiment
+    <string name="TemperatureDependence"> Temperature Dependence</string>
+    <string name="TemperatureDependenceFrontPage"> Temperature Dependence of Semiconductors</string>
+    <string name="TemperatureDependenceFrontPageDescription"> Click on different types of semiconductors to see how temperature affects the number of charge carriers available in each of them.</string>
+    <string name="IntrinsicButton">Intrinsic (Undoped)</string>
+    <string name="nTypeButton">Extrinsic (n-type)</string>
+    <string name="pTypeButton">Extrinsic (p-type)</string>
+    <string name="IntrinsicTitle">Intrinsic semiconductors</string>
+    <string name="nTypeTitle">Extrinsic n-type semiconductors</string>
+    <string name="pTypeTitle">Extrinsic p-type semiconductors</string>
+
+
+    <string name="TemperatureDependenceTitle"> N-Type Semiconductors</string>
+    <string name="TemperatureSlider">Temperature (K):</string>
+    <string name="AbsoluteZero">0</string>
+
+    <string name="MaxTemp">600</string>
+    <string name="ChargeDensityHeader">Electron density (cm^-3):</string>
+
+
+    //Contact Us
+    <string name="ContactUsOpening">If you have any questions or feedback for us, we\'d love to hear from you</string>
+    <string name="ContactUsTelephoneHeader">Telephone: Ms Ana Talaban-Bailey</string>
+    <string name="ContactUsTelephoneInfo">01223 334457 (+44 1223 334457 for international)</string>
+    <string name="ContactUsFaxHeader">Fax:</string>
+    <string name="ContactUsFaxInfo">01223 334437 (+44 1223 334437 for international)</string>
+    <string name="ContactUsAddressHeader">Postal Address:</string>
+    <string name="ContactUsAddressInfo">
+        " Department of Materials Science and Metallurgy, \n"
+        "University of Cambridge, \n"
+        "27 Charles Babbage Road, \n"
+        "Cambridge CB3 0FS, \n"
+        "United Kingdom"
+    </string>
+    <string name="ContactUsWebsitesHeader">Websites:</string>
+    <string name="ContactUsGanWebsiteInfo"><u>Cambridge Centre for Gallium Nitride</u></string>
+    <string name="ContactUsMsmWebsiteInfo"><u>Cambridge Department of Materials Science and Metallurgy</u></string>
+    <string name="ContactUsSocialHeader">Social:</string>
+    <string name="ContactUsEmailHeader">E-mail:</string>
+    <string name="ContactUsEmailInfo">If you want to inquire about our outreach programme in schools, email us at gan-schools@msm.cam.ac.uk</string>
+    <string name="min_composition">0.0</string>
+    <string name="max_composition">0.3</string>
+    <string name="min_width">1.0</string>
+    <string name="max_width">3.0</string>
+    <string name="Credits">App made by: James Moloney and Anna Bui</string>
+
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_laboratory"
+    tools:context="cambridge.materials.galliumnitride.app.ledlab.LaboratoryPage">
+
+    <LinearLayout
+        android:id = "@+id/TitleBanner"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+
+        android:orientation="horizontal"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/backButton"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/ic_button_back"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <include
+            layout="@layout/title_bar"
+
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/backButton"
+            app:layout_constraintRight_toLeftOf="@+id/homeButton"
+            />
+
+
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/homeButton"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/ic_button_home"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/LaboratoryTitle"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+        android:text="@string/LaboratoryTitle"
+        android:textColor="@color/indigo"
+        android:textSize="28sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/TitleBanner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/LaboratoryDescription"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/LaboratoryDescription"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LaboratoryTitle"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LaboratoryDescription"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/ExperimentsRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+                        android:id="@+id/ColourTuningExperimentButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="107dp"
+                        android:background="@drawable/ic_experiment_colour_tuning" />
+
+                    <TextView
+                        android:id="@+id/ColourTuningExperimentButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ColourTuningExperimentButton"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:text="@string/ColourTuningTitle"
+                        android:textColor="#8b0000"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+                        android:id="@+id/IVPlotterExperimentButton"
+                        android:background="@drawable/ic_experiment_iv_plotter"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:id="@+id/IVPlotterExperimentButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/IVPlotterExperimentButton"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:text="@string/IVPlotterTitle"
+                        android:textColor="#8b0000"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+                        android:id="@+id/LEDSwitchExperimentButton"
+                        android:background="@drawable/ic_experiment_led_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:id="@+id/LEDSwitchExperimentButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/LEDSwitchExperimentButton"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:text="@string/LEDSwitchTitle"
+                        android:textColor="#8b0000"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ExperimentsRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/ExperimentsRow1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true">
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+                        android:id="@+id/TemperatureDependenceButton"
+                        android:background="@drawable/ic_experiment_temperature_dependence"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+
+                    <TextView
+                        android:id="@+id/TemperatureDependenceButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TemperatureDependenceButton"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:text="@string/TemperatureDependence"
+                        android:textColor="#8b0000"/>
+                </RelativeLayout>
+
+
+
+                <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+                    android:id="@+id/Experiment5"
+                    android:background="@drawable/ic_experiment_none"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"/>
+
+                <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+                    android:id="@+id/Experiment6"
+                    android:background="@drawable/ic_experiment_none"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

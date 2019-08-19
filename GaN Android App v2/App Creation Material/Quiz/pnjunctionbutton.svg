@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1080mm"
+   height="1080mm"
+   viewBox="0 0 1080 1080"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="pnjunctionbutton.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#95cd88"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="1334.1415"
+     inkscape:cy="1997.2225"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g866"
+     showgrid="false"
+     inkscape:pagecheckerboard="false"
+     inkscape:window-width="3008"
+     inkscape:window-height="1880"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,783)">
+    <rect
+       style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:#00aad4;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="1039.8237"
+       height="198.5999"
+       x="31.651772"
+       y="-452.43948"
+       rx="41.830944"
+       ry="42.333324"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <g
+       id="g866"
+       transform="translate(-431.64881,-305.40476)">
+      <g
+         id="g887"
+         transform="translate(0,-18.163345)">
+        <g
+           id="g878">
+          <g
+             transform="matrix(0.35277777,0,0,-0.35277777,652.02697,-29.571429)"
+             id="g20">
+            <path
+               inkscape:connector-curvature="0"
+               id="path22"
+               style="fill:#2fa0b5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c 0,128.867 -104.467,233.333 -233.333,233.333 -128.866,0 -233.333,-104.466 -233.333,-233.333 0,-128.866 104.467,-233.333 233.333,-233.333 C -104.467,-233.333 0,-128.866 0,0" />
+          </g>
+        </g>
+        <path
+           sodipodi:nodetypes="cc"
+           style="opacity:0.5;fill:#ffffff;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 486.52458,-28.244797 26.15509,0.09202"
+           id="path849"
+           inkscape:connector-curvature="0" />
+        <rect
+           style="opacity:0.5;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:5.29166651;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect841"
+           width="53.006363"
+           height="48.701279"
+           x="515.47028"
+           y="-53.518452"
+           rx="1.9801445"
+           ry="1.9801445" />
+        <rect
+           ry="1.9801445"
+           rx="1.9801445"
+           y="-53.50948"
+           x="569.84894"
+           height="48.701279"
+           width="53.006363"
+           id="rect847"
+           style="opacity:0.5;fill:#0000ff;fill-opacity:1;stroke:#ffffff;stroke-width:5.29166651;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="cc"
+           style="opacity:0.5;fill:#ffffff;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 625.49413,-27.228629 26.53284,0.303033"
+           id="path855"
+           inkscape:connector-curvature="0" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot868"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,431.64881,-477.59521)"><flowRegion
+           id="flowRegion870"
+           style="fill:#00ffff"><rect
+             id="rect872"
+             width="2238.498"
+             height="400.02042"
+             x="1357.645"
+             y="1499.9398"
+             style="fill:#00ffff" /></flowRegion><flowPara
+           id="flowPara874"
+           style="font-size:192px;fill:#00ffff;stroke:#008080">p-n junction</flowPara></flowRoot>    </g>
+  </g>
+</svg>

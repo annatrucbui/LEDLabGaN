@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cambridge.materials.galliumnitride.app.ledlab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_cambridge_led_lab_launcher"
+        android:label="@string/reduced_app_name"
+        android:roundIcon="@mipmap/ic_cambridge_led_lab_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuizPage" />
+        <activity android:name=".ExperimentTemperatureDependencePType" />
+        <activity android:name=".ExperimentTemperatureDependenceNType" />
+        <activity android:name=".ExperimentTemperatureDependenceIntrinsic" />
+        <activity android:name=".ExperimentTemperatureDependenceFrontPage" />
+        <activity
+            android:name=".HomePage"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ClassroomPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LaboratoryPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactUsPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExperimentColourTuning"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExperimentIVPlotter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExperimentLEDSwitch"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

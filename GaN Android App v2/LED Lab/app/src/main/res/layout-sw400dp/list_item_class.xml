@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainContentsItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/class_rounded_box_white"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageView
+            android:id="@+id/TopicIconView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_button_website" />
+
+        <TextView
+            android:id="@+id/TopicTextView"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="15sp"
+            android:textColor="@color/royalBlue"/>
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthAleoButton
+            android:id="@+id/Stage1Button"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Level1ButtonText"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"/>
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthAleoButton
+            android:id="@+id/Stage2Button"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Level2ButtonText"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthAleoButton
+            android:id="@+id/Stage3Button"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Level3ButtonText"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ForegroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>
