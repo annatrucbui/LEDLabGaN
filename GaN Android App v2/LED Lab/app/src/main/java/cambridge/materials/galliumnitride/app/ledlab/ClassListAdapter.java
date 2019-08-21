@@ -182,7 +182,7 @@ class ClassListAdapter extends BaseAdapter {
             @Override
             public void onGlobalLayout() {
                 removeOnGlobalLayoutListener(iv, this);
-                if (position > 4){
+                if (position > 5){
                     iv.setVisibility(View.VISIBLE);
                     iv.setBackgroundResource(R.drawable.ic_class_none);
                     ViewGroup.LayoutParams lp = iv.getLayoutParams();

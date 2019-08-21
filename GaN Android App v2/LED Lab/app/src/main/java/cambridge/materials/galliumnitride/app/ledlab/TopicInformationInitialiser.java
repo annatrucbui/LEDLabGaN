@@ -71,22 +71,24 @@ public class TopicInformationInitialiser {
         TopicInformation pnJunction = new TopicInformation("p-n Junction", R.drawable.ic_class_pn_junction, pnJunctionExpectations, pnJunctionLevelPageCounts, pnJunction1Animations, pnJunction2Animations, pnJunction3Animations, pnJunction1Texts, pnJunction2Texts, pnJunction3Texts);
         mTopics.add(pnJunction);
 
-        //TopicInformation ColourTuning = new TopicInformation("Colour Tuning", R.drawable.ic_class_colour_tuning, ConductionExpectations, ConductionLevelPageCounts, Conduction1Animations, Conduction2Animations, Conduction3Animations, Conduction1Texts, Conduction2Texts, Conduction3Texts);
-        // mTopics.add(ColourTuning);
+        String[] quantumWellsExpectations = {"Doping", "p-n Junction"};
+        int[] quantumWellsLevelPageCounts = {6, 5, 4};
+        int[] quantumWells1Animations = {R.drawable.animation_quantumwells_1_1, R.drawable.animation_quantumwells_1_2, R.drawable.animation_quantumwells_1_3, R.drawable.animation_quantumwells_1_4, R.drawable.animation_quantumwells_1_5, R.drawable.animation_quantumwells_1_6};
+        int[] quantumWells2Animations = {R.drawable.animation_quantumwells_2_1, R.drawable.animation_quantumwells_2_2, R.drawable.animation_quantumwells_2_3, R.drawable.animation_quantumwells_2_4, R.drawable.animation_quantumwells_2_5};
+        int[] quantumWells3Animations = {R.drawable.animation_quantumwells_3_1, R.drawable.animation_quantumwells_3_2, R.drawable.animation_quantumwells_3_3, R.drawable.animation_quantumwells_3_4};
+        String[] quantumWells1Texts = {c.getResources().getString(R.string.ClassText_quantumwells1_Page1), c.getResources().getString(R.string.ClassText_quantumwells1_Page2), c.getResources().getString(R.string.ClassText_quantumwells1_Page3), c.getResources().getString(R.string.ClassText_quantumwells1_Page4), c.getResources().getString(R.string.ClassText_quantumwells1_Page5), c.getResources().getString(R.string.ClassText_quantumwells1_Page5)};
+        String[] quantumWells2Texts = {c.getResources().getString(R.string.ClassText_quantumwells2_Page1), c.getResources().getString(R.string.ClassText_quantumwells2_Page2), c.getResources().getString(R.string.ClassText_quantumwells2_Page3), c.getResources().getString(R.string.ClassText_quantumwells2_Page4), c.getResources().getString(R.string.ClassText_quantumwells2_Page4)};
+        String[] quantumWells3Texts = {c.getResources().getString(R.string.ClassText_quantumwells3_Page1), c.getResources().getString(R.string.ClassText_quantumwells3_Page2), c.getResources().getString(R.string.ClassText_quantumwells3_Page3), c.getResources().getString(R.string.ClassText_quantumwells3_Page4)  };
+        TopicInformation quantumWells = new TopicInformation("Quantum Wells", R.drawable.ic_class_quantum_wells, quantumWellsExpectations, quantumWellsLevelPageCounts, quantumWells1Animations, quantumWells2Animations, quantumWells3Animations, quantumWells1Texts, quantumWells2Texts, quantumWells3Texts);
+        mTopics.add(quantumWells);
 
-        //TopicInformation Doping = new TopicInformation("Doping", R.drawable.ic_class_doping, ConductionExpectations, ConductionLevelPageCounts, Conduction1Animations, Conduction2Animations, Conduction3Animations, Conduction1Texts, Conduction2Texts, Conduction3Texts);
-        //mTopics.add(Doping);
 
 
 
 
 
-        //Possible topic ideas
 
-        //Conduction
-        //Doping
-        //Colour Tuning
-        //How is an LED Made
+
     }
 
     //Getter

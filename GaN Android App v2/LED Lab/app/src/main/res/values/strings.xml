@@ -344,6 +344,67 @@
         "An increase in strength of the reverse biasing will eventually lead to an increase in the current due to dielectric breakdown of the semiconductor. The voltage at which this occurs is called the breakdown voltage."
     </string>
 
+
+
+
+
+
+    //quantum wells  Class 1
+    <string name="ClassText_quantumwells1_Page1">
+        "In the p-n junction lesson, we have explored a type of  junction between 2 differently doped semiconductors of the same material. The band gaps of the semiconductors are equal.
+In this lesson, we are going to look at GaN as an example to illustrate how light emission of a LED can be made more efficient using quantum wells."
+    </string>
+    <string name="ClassText_quantumwells1_Page2">
+        "Recombination between holes and electrons are unlikely to occur. The light intensity is therefore low."
+    </string>
+    <string name="ClassText_quantumwells1_Page3">
+        "Band diagram representation."
+    </string>
+    <string name="ClassText_quantumwells1_Page4">
+        "To increase the light intensity, we need to confine the electrons and the holes in the same place. We do this by sandwiching a layer of InGaN between 2 layers of GaN. If the layer of InGaN is sufficiently thin (a few nm), we get a single quantum well."
+    </string>
+    <string name="ClassText_quantumwells1_Page5">
+        "The width of the active region in which the electrons and holes recombine is given by the width of the quantum well.  Recombination now occurs with a higher probability. This increases the intensity if light emitted. For this reason, all high-effiency LEDs employ quantum well designs."
+    </string>
+    <string name="ClassText_quantumwells1_Page6">
+        "This works because InGaN has a smaller band gap that GaN. The quantum well created can trap charge carriers in a confined active region by means of barriers."
+    </string>
+
+
+    //quantum wells Class 2
+    <string name="ClassText_quantumwells2_Page1">
+        "With the single quantum well design we learned in lesson I, there are a few mechanisms that can cause the loss of charge carriers and lower the efficiency. One of the mechanisms that cause these losses is carrier overflow.
+Carrier overflow occurs when the active region is filled with carriers, and the injection of additional carriers will not lead to an increase in the emitted light intensity."
+    </string>
+    <string name="ClassText_quantumwells2_Page2">
+        "In order to avoid this problem, high-current LEDs can employ a number of quantum wells rather than just a single quantum well."
+    </string>
+    <string name="ClassText_quantumwells2_Page3">
+        "Multiple quantum wells (MQWs) are nm wide layers of a lower band gap semiconductor grown on a higher band gap barrier material."
+    </string>
+    <string name="ClassText_quantumwells2_Page4">
+        "TEM image."
+    </string>
+    <string name="ClassText_quantumwells2_Page5">
+        "Band diagram."
+    </string>
+
+
+    //quantum wells Class 3
+    <string name="ClassText_quantumwells3_Page1">
+        "For an electron to be in a quantum well, it has to occupy a discrete energy level in the well. The energy levels that exist in a well must satisfy the calculation using quantum mechanics. In the diagram, the band gap is the energy difference between the bottom energy level of the conduction band and the top energy level of the valence band in the quantum well."
+    </string>
+    <string name="ClassText_quantumwells3_Page2">
+        "When an electron crosses the band gap to recombine with a hole, a photon is released. The energy and therefore wavelength of the photon depends on the band gap. One way to tune colour is to change the depth of the quantum well by changing the composition of InGaN"
+    </string>
+    <string name="ClassText_quantumwells3_Page3">
+        "Another way to tune colour is to change the width of the quantum well. When the well becomes wider, the energy levels lie closer together. The band gap is therefore reduced. The photon released therefore has lower energy and higher wavelength."
+    </string>
+    <string name="ClassText_quantumwells3_Page4">
+        "One way to make a white light emitting LED involving combining 2 or more different quantum wells with different band gaps in a MQW strucutre. The LEDs emit photons at different selected wavelengths resulting in perceived white light."
+    </string>
+
+
     //Class List Item
     <string name="Level1ButtonText">I</string>
     <string name="Level2ButtonText">II</string>
