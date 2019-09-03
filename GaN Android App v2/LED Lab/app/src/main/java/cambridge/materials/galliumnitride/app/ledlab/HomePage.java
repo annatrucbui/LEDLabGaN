@@ -97,11 +97,9 @@ public class HomePage extends AppCompatActivity {
         final ImageButton gamesButton = findViewById(R.id.GamesButton);
         gamesButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-
-                Intent loadQuizActivity = new Intent(HomePage.this, QuizPage.class);
-                HomePage.this.startActivity(loadQuizActivity);
-
-
+                Uri uri = Uri.parse("https://www.youtube.com/channel/UClpTu_hm2DUPIg_-cmXs8ow");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
 

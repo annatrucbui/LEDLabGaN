@@ -72,13 +72,13 @@ public class TopicInformationInitialiser {
         mTopics.add(pnJunction);
 
         String[] quantumWellsExpectations = {"Doping", "p-n Junction"};
-        int[] quantumWellsLevelPageCounts = {6, 5, 4};
+        int[] quantumWellsLevelPageCounts = {6, 5, 7};
         int[] quantumWells1Animations = {R.drawable.animation_quantumwells_1_1, R.drawable.animation_quantumwells_1_2, R.drawable.animation_quantumwells_1_3, R.drawable.animation_quantumwells_1_4, R.drawable.animation_quantumwells_1_5, R.drawable.animation_quantumwells_1_6};
         int[] quantumWells2Animations = {R.drawable.animation_quantumwells_2_1, R.drawable.animation_quantumwells_2_2, R.drawable.animation_quantumwells_2_3, R.drawable.animation_quantumwells_2_4, R.drawable.animation_quantumwells_2_5};
-        int[] quantumWells3Animations = {R.drawable.animation_quantumwells_3_1, R.drawable.animation_quantumwells_3_2, R.drawable.animation_quantumwells_3_3, R.drawable.animation_quantumwells_3_4};
+        int[] quantumWells3Animations = {R.drawable.animation_quantumwells_3_1, R.drawable.animation_quantumwells_3_2, R.drawable.animation_quantumwells_3_3, R.drawable.animation_quantumwells_3_4, R.drawable.animation_quantumwells_3_5, R.drawable.animation_quantumwells_3_6, R.drawable.animation_quantumwells_3_7};
         String[] quantumWells1Texts = {c.getResources().getString(R.string.ClassText_quantumwells1_Page1), c.getResources().getString(R.string.ClassText_quantumwells1_Page2), c.getResources().getString(R.string.ClassText_quantumwells1_Page3), c.getResources().getString(R.string.ClassText_quantumwells1_Page4), c.getResources().getString(R.string.ClassText_quantumwells1_Page5), c.getResources().getString(R.string.ClassText_quantumwells1_Page5)};
         String[] quantumWells2Texts = {c.getResources().getString(R.string.ClassText_quantumwells2_Page1), c.getResources().getString(R.string.ClassText_quantumwells2_Page2), c.getResources().getString(R.string.ClassText_quantumwells2_Page3), c.getResources().getString(R.string.ClassText_quantumwells2_Page4), c.getResources().getString(R.string.ClassText_quantumwells2_Page4)};
-        String[] quantumWells3Texts = {c.getResources().getString(R.string.ClassText_quantumwells3_Page1), c.getResources().getString(R.string.ClassText_quantumwells3_Page2), c.getResources().getString(R.string.ClassText_quantumwells3_Page3), c.getResources().getString(R.string.ClassText_quantumwells3_Page4)  };
+        String[] quantumWells3Texts = {c.getResources().getString(R.string.ClassText_quantumwells3_Page1), c.getResources().getString(R.string.ClassText_quantumwells3_Page2), c.getResources().getString(R.string.ClassText_quantumwells3_Page3), c.getResources().getString(R.string.ClassText_quantumwells3_Page4), c.getResources().getString(R.string.ClassText_quantumwells3_Page5), c.getResources().getString(R.string.ClassText_quantumwells3_Page6), c.getResources().getString(R.string.ClassText_quantumwells3_Page7)};
         TopicInformation quantumWells = new TopicInformation("Quantum Wells", R.drawable.ic_class_quantum_wells, quantumWellsExpectations, quantumWellsLevelPageCounts, quantumWells1Animations, quantumWells2Animations, quantumWells3Animations, quantumWells1Texts, quantumWells2Texts, quantumWells3Texts);
         mTopics.add(quantumWells);
 

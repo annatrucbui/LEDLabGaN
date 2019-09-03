@@ -153,10 +153,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/ColourTuningExperimentButton"
-                        android:textSize="12sp"
                         android:gravity="center"
                         android:text="@string/ColourTuningTitle"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -176,10 +176,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/IVPlotterExperimentButton"
-                        android:textSize="12sp"
                         android:gravity="center"
                         android:text="@string/IVPlotterTitle"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -199,10 +199,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/LEDSwitchExperimentButton"
-                        android:textSize="12sp"
                         android:gravity="center"
                         android:text="@string/LEDSwitchTitle"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
                 </RelativeLayout>
             </LinearLayout>
 

@@ -30,9 +30,6 @@ public class PossibleSearchesInitialiser {
         SearchElement classroomSearch = new SearchElement("PAGE", classroomTags, "Classroom", R.drawable.ic_search_classroom, new ClassroomPage(), R.color.blue);
         mPossibleSearches.add(classroomSearch);
 
-        String[] gamesTags = {"games page", "gamespage"};
-        SearchElement gamesSearch = new SearchElement("PAGE", gamesTags, "Games Page", R.drawable.ic_search_games, new QuizPage(), R.color.darkGreen);
-        mPossibleSearches.add(gamesSearch);
 
         String[] searchTags = {"search page", "searchpage"};
         SearchElement searchSearch = new SearchElement("PAGE", searchTags, "Search Page", R.drawable.ic_search_search, new SearchPage(), R.color.orange);

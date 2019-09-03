@@ -221,76 +221,74 @@
 
     //Doping Class 1
     <string name="ClassText_Doping1_Page1">
-        "Apart from LED, semiconductors are extensively used in the field of electronics. Semiconductors are classified according to the materials that make them. Each type has different properties and is used in different applications."
+        "As well as being vital for LEDs, semiconductors are extensively used in electronics. Semiconductors are classified by how they conduct electricity. Each type has different properties and a difficult role in an LED."
     </string>
     <string name="ClassText_Doping1_Page2">
-        "Intrinsic semiconductors are made from materials in their pure forms (undoped). Examples include pure Si, pure Ge, pure GaAs. A Si atom has 4 valence electrons, all of which are used in bonding with its 4 nearest neighbours."
+        "Semiconductors in their pure elemental form are described as intrinsic or undoped. Examples include pure silicon (Si), pure germanium (Ge) and pure gallium nitride (GaN). A Si atom has 4 valence electrons, all of which are used in bonding with its 4 nearest neighbours."
     </string>
     <string name="ClassText_Doping1_Page3">
-        "The valence electrons used in bonding cannot carry a current. Only when there is enough thermal energy, the valence electrons can escape the bond to travel around the lattice freely and carry an electric current."
+        "The valence electrons used in bonding cannot carry an electric current. Only when there is enough thermal energy, the valence electrons can escape the bond to travel around the lattice freely and carry a current."
     </string>
     <string name="ClassText_Doping1_Page4">
-        "Extrinsic semiconductors are made by doping. By adding small fraction of impurity atoms with 1 extra or 1 fewer valence electron to a pure material (Si), we can increase the number of charge carriers."
+        "Extrinsic semiconductors are made by doping. By adding a small fraction of impurity atoms with 1 extra or 1 fewer valence electron to a pure material (Si), we can increase the number of charge carriers."
     </string>
     <string name="ClassText_Doping1_Page5">
-        "When an P atom (5 valence electrons) is added to Si, it brings with it 1 extra electron. The semiconductor has more mobile charges so it conducts better. We call this an N-type semiconductor."
+        "When a phosphorus (P) atom (5 valence electrons) is added to Si, it brings with it 1 extra electron. The semiconductor now has more mobile charges so it conducts better. We call this an n-type semiconductor."
     </string>
     <string name="ClassText_Doping1_Page6">
-        "When an Al atom (3 valence eletrons) is added to Si, a hole is created due to the lack of electron. This still increases the number of charge carrier because an electron can move in to the hole. Equivalently, we can talk about the hole moving around, acting like a positive charge. Therefore, we call this an P-type semiconductor."
+        "When an aluminium (Al) atom (3 valence electrons) is added to Si, a hole is created due to the lack of electron. This still increases the number of charge carriers because electrons can move into the hole states and leave holes behind on their old sites. Equivalently, we can talk about the hole moving around, acting like a positive charge. Therefore, we call this a p-type semiconductor."
     </string>
 
     //Doping Class 2
     <string name="ClassText_Doping2_Page1">
-        " We have learned in Conduction lessons that a semiconductor has a band gap between the valence band and the conduction band. Electrons are not permitted in the band gap and only electrons in the conduction band can conduct electricity."
+        "We have learned in the Conduction lessons that a semiconductor has a band gap between the valence band and the conduction band. Electrons are not permitted in the band gap and only electrons in the conduction band can move and carry the current."
     </string>
     <string name="ClassText_Doping2_Page2">
-        "When electrons from valence band are excited to conduction band, they leave behind holes in the valence band. This means that the number of holes and free electrons working as charge carriers in an intrinsic semiconductors are the same."
+        "When electrons from the valence band are excited to the conduction band, they leave behind holes in the valence band. This means that the number of  mobile holes and electrons acting as charge carriers in an intrinsic semiconductors are the same."
     </string>
     <string name="ClassText_Doping2_Page3">
-        "When an electric field is applied: electrons at the bottom of the conduction band moves in one direction. The electrons moves fill the holes, which is equivalent to the holes at the top of the valence band moving in the opposite direction."
+        "When an electric field is applied: electrons at the bottom of the conduction band move in one direction. The electrons in the valence band move into the holes, which is equivalent to the holes at the top of the valence band moving in the opposite direction to the electrons."
     </string>
     <string name="ClassText_Doping2_Page4">
-        "In a N-type semiconductor, the extra valence electrons from impurities fill the energy level just below the conduction band called the donor level. These donor electrons can be excited, i.e donated,  to the conduction band with little thermal energy supplied."
+        "In an n-type semiconductor, the extra valence electrons from impurities occupy an energy level just below the conduction band, called the donor level. These donor electrons can be excited (i.e donated) to the conduction band using only a little thermal energy."
     </string>
     <string name="ClassText_Doping2_Page5">
-        "In a P-type semiconductor, the holes created from impurities fill the energy level just above the valence band called the acceptor level. These acceptor hole can be excited into the valence band, or in other words they can accept electron from the valence band, with little thermal energy supplied."
+        "In a p-type semiconductor, the addition of impurities creates an energy level just above the valence band, called the acceptor level. This acceptor level can accept electrons that are excited from the valence band, using only a little thermal energy.  This leaves holes in the valence band which can carry the current."
     </string>
     <string name="ClassText_Doping2_Page6">
-        "In an N-type semiconductor, electrons are the majority charge carriers. In a P-type semiconductor, holes are the majority charge carriers. When a donor state empties or an acceptor state fills, it is ionised."
+        "In an n-type semiconductor, electrons are the majority charge carriers, while in a p-type semiconductor, holes are the majority charge carriers. When a donor state empties or an acceptor state fills, it is ionised."
     </string>
 
     //Doping Class 3
     <string name="ClassText_Doping3_Page1">
-        "In this lesson, we are going to look at the temperature dependence of charge carrier concentration in a semiconductor. Electron density is the number of conduction electrons per unit volume."
+        "In this lesson, we are going to look at the temperature dependence of the free charge carrier concentration in a semiconductor. The electron density is the number of conduction electrons per unit volume."
     </string>
     <string name="ClassText_Doping3_Page2">
-        "For an intrinsic semiconductor, below a certain temperature, there is not enough energy to excite across the band gap."
+        "For an intrinsic semiconductor, below a certain temperature, there is not enough energy to excite across the band gap, so there are almost no conducting electrons."
     </string>
     <string name="ClassText_Doping3_Page3">
-        "As temperature increases passing a certain point, the electrons in valence band overcome the energy barrier and moves up to the conduction band. The carrier concentration therefore increases."
+        "As temperature increases passing a certain point, the electrons in the valence band overcome the energy barrier and move up to the conduction band. The concentration of conducting carriers therefore increases."
     </string>
     <string name="ClassText_Doping3_Page4">
-        "The behaviour of an extrinsic semiconductor is different. Take an N-type semiconductor for example. As temperature increases, the donor electrons overcome the small barrier and moves up to  the conduction band, so the carrier concentration increases."
+        "The behaviour of an extrinsic semiconductor is different. Take an n-type semiconductor for example. As temperature increases, the donor electrons overcome the small barrier and move up to the conduction band, so the carrier concentration increases."
     </string>
     <string name="ClassText_Doping3_Page5">
-        "Once all the electrons have been excited from the donor levels, all dopants are ionised and therefore “exhausted”. Any further increase in temperature causes little change in number of electrons conducting in the conduction band."
+        "Once all the extra valence electrons have been excited from the donor levels, all dopants are ionised and therefore “exhausted”. Any further increase in temperature causes little change in number of electrons conducting in the conduction band."
     </string>
     <string name="ClassText_Doping3_Page6">
         "At high temperature, there is enough energy to excite electrons from the valence band straight to the conduction band across the band gap. The extrinsic semiconductor now behaves like an intrinsic one."
     </string>
     <string name="ClassText_Doping3_Page7">
-    "The case is very similar with a p-type semiconductor, with the charge carriers being holes in this case."
+        "The case is very similar with a p-type semiconductor, with the charge carriers being holes in this case."
     </string>
 
 
     //pn junction Class 1
     <string name="ClassText_pnjunction1_Page1">
-        "In the Doping lessons, we have learned that n-type and p-type semiconductors can be made by adding dopants to a pure intrinsic semiconductor."
-        "In this lesson, we are going to learn about p-n junctions - the basic building blocks of many electrical devices including LEDs, transistors, solar cells."
+        "In the Doping lessons, we have learned that n-type and p-type semiconductors can be made by adding dopants to a pure intrinsic semiconductor. In this lesson, we are going to learn about p-n junctions - the basic building blocks of many electrical devices including LEDs, some transistors, and solar cells."
     </string>
     <string name="ClassText_pnjunction1_Page2">
-        "If we add a lot of P atoms to a block of pure Si, the resulting n-type semiconductor will has a lot of free electrons acting as charge carriers."
-        "If we add a lot of N atoms to a block of pure Si, the resulting p-type semiconductor will has a lot of holes acting as charge carriers."
+        "If we add a lot of P atoms to a block of pure Si, the resulting n-type semiconductor will have a lot of free electrons acting as charge carriers. If we add a lot of Al atoms to a block of pure Si, the resulting p-type semiconductor will have a lot of holes acting as charge carriers as well."
     </string>
     <string name="ClassText_pnjunction1_Page3">
         "A p-n junction is formed when a p-type and a n-type semiconductor join together. Free electrons from the n-type semiconductors diffuse across the junction and combine with holes available in the p-type semiconductors."
@@ -299,109 +297,112 @@
         "The region of the n-type semiconductor near the junction becomes positively charged as it has lost electrons. The region of the p-type semiconductor near the junction becomes negatively charged as it has gained electrons."
     </string>
     <string name="ClassText_pnjunction1_Page5">
-        "The thin layer of the crystal lattice between these charges has been depleted of majority carriers, thus, is known as the depletion region. It becomes an intrinsic semiconductor, nearly insulating to separate the conductive n-type and the p-type regions."
+        "The region in which the carriers have combined has been depleted of free carriers. Thus, it is known as the depletion region. It becomes effectively an intrinsic semiconductor, nearly insulating, and separates the conductive n-type and p-type regions."
     </string>
 
 
     //pn junction Class 2
     <string name="ClassText_pnjunction2_Page1">
-        "In this lesson, we’re going to look at how a p-n junction is formed using band diagram. A n-type semiconductor has free electrons in the conduction band as the major charge carriers. A p-type semiconductor has holes in the valence band as the major charge carriers."
+        "In this lesson, we’re going to look at how a p-n junction is formed using band diagrams. A n-type semiconductor has free electrons in the conduction band as the majority charge carriers. A p-type semiconductor has holes in the valence band as the majority charge carriers."
     </string>
     <string name="ClassText_pnjunction2_Page2">
-        "When the 2 semiconductors are initially joined together, n-type electrons will flow into the p-type valence band to lower their energy. Meanwhile, p-type holes flow in the opposite direction."
+        "When the 2 semiconductors are initially joined together, electrons from the n-type material will diffuse into the p-type valence band to lower their energy. Meanwhile, holes from the p-type material flow in the opposite direction."
     </string>
     <string name="ClassText_pnjunction2_Page3">
-        "Charge carrier density is therefore depleted at the contact. The width of the depletion region is typically in the range 10nm-1um. A free charge now requires some extra energy to overcome this region with very few charge carriers."
+        "There are therefore now less carriers in the region close to the boundary between the n-type and p-type materials. The width of the resulting depletion region is typically in the range 10nm - 1µm."
     </string>
     <string name="ClassText_pnjunction2_Page4">
-        "As the chemical potentials of the 2 types of semiconductor come to equilibrium, the band structures are deformed accordingly. Now we can imagine the electrons having to “go uphill” to move from the n-type to the p-type side."
+        "In order that the materials on either side of the junction can be in equilibrium, the bands in the semiconductor bend as shown. Now we can imagine the electrons having to “go uphill” (i.e. increase their energy) to move from the n-type to the p-type side."
     </string>
 
 
     //pn junction Class 3
     <string name="ClassText_pnjunction3_Page1">
-        "At equilibrium, there is a potential barrier for electrons to diffuse from  the n-type to the p-type semiconductor and holes to diffuse in the opposite direction. If the n-type region is connected to the positive terminal of a battery and the p-type is connected to the negative side, this is called reverse bias."
+        "At equilibrium, we saw that a potential barrier for electrons to diffuse from the n-type to the p-type semiconductor and holes to diffuse in the opposite direction. If the n-type region is connected to the positive terminal of a battery and the p-type is connected to the negative side, this is called reverse bias."
     </string>
     <string name="ClassText_pnjunction3_Page2">
         "In such reverse-biased situation, the potential barriers for both electrons and holes are increased. The depletion region becomes wider."
     </string>
     <string name="ClassText_pnjunction3_Page3">
-        "The overall current-voltage characteristic of the p-n junction is shown in the graph. The diffusion current is reduced which results in a very small net flow of electrons."
+        "The overall current-voltage characteristic of the p-n junction is shown in the graph. Very few carriers can cross the depletion region due to the large barrier in reverse bias. Hence, the observed current is very low."
     </string>
     <string name="ClassText_pnjunction3_Page4">
-        "When the voltage is applied the opposite way instead, electrons want to move from n-type to p-type side. This is called forward bias."
+        "When the voltage is applied the opposite way instead, electrons tend to move from n-type to p-type side. This is called forward bias."
     </string>
     <string name="ClassText_pnjunction3_Page5">
-        "In such forward-biases situation, the potential barriers for both electrons and holes are decreased. The depletion layer becomes narrower."
+        "In this forward-bias situation, the potential barriers for both electrons and holes are decreased. The depletion layer becomes narrower, or even vanishes completely for extremely high voltages."
     </string>
     <string name="ClassText_pnjunction3_Page6">
-         " "
+        "Now the barrier is very small and electrons and holes can cross the depletion region and move according to the applied field."
     </string>
     <string name="ClassText_pnjunction3_Page7">
-        "The diffusion current is reduced which results in a large net flow of electrons. "
+        "The applied voltage tends to “push” the carriers across the depletion region, and because the barrier height is now low, we see a flow of current, which increases as the bias gets larger."
     </string>
     <string name="ClassText_pnjunction3_Page8">
-        "An increase in strength of the reverse biasing will eventually lead to an increase in the current due to dielectric breakdown of the semiconductor. The voltage at which this occurs is called the breakdown voltage."
+        "An increase in strength of the reverse bias will eventually lead to an increase in the current due to dielectric breakdown of the semiconductor. The voltage at which this occurs, is called the breakdown voltage."
     </string>
 
 
-
-
-
-
-    //quantum wells  Class 1
+    //quantum wells Class 1
     <string name="ClassText_quantumwells1_Page1">
-        "In the p-n junction lesson, we have explored a type of  junction between 2 differently doped semiconductors of the same material. The band gaps of the semiconductors are equal.
-In this lesson, we are going to look at GaN as an example to illustrate how light emission of a LED can be made more efficient using quantum wells."
+        "In the p-n junction lessons, we have explored a junction between 2 differently doped semiconductors of the same material. The band gaps of the semiconductors are equal. Now, we’re going to look at how materials with different bandgaps can be used together to make LEDs more efficient."
     </string>
     <string name="ClassText_quantumwells1_Page2">
-        "Recombination between holes and electrons are unlikely to occur. The light intensity is therefore low."
+        "The holes and electrons can move about in all directions in the depletion region. Therefore, electrons and holes are unlikely to meet and recombine and the amount of light emitted (intensity) is low."
     </string>
     <string name="ClassText_quantumwells1_Page3">
-        "Band diagram representation."
+        "Here we see the same process in the band diagram representation.  Light emission does not occur very frequently! This means the efficiency of the LED is low."
     </string>
     <string name="ClassText_quantumwells1_Page4">
-        "To increase the light intensity, we need to confine the electrons and the holes in the same place. We do this by sandwiching a layer of InGaN between 2 layers of GaN. If the layer of InGaN is sufficiently thin (a few nm), we get a single quantum well."
+        "To increase the light intensity, we need to confine the electrons and the holes in the same place. We do this by sandwiching a layer of InGaN between 2 layers of GaN. If the layer of InGaN is sufficiently thin (a few nm), we call this a single quantum well."
     </string>
     <string name="ClassText_quantumwells1_Page5">
-        "The width of the active region in which the electrons and holes recombine is given by the width of the quantum well.  Recombination now occurs with a higher probability. This increases the intensity if light emitted. For this reason, all high-effiency LEDs employ quantum well designs."
+        "The width of the region in which the electrons and holes combine is given by the width of the quantum well.  The electrons and holes are now more likely to meet, because they have been forced into the same small volume. This increases the intensity of light emitted."
     </string>
     <string name="ClassText_quantumwells1_Page6">
-        "This works because InGaN has a smaller band gap that GaN. The quantum well created can trap charge carriers in a confined active region by means of barriers."
+        "This works because InGaN has a smaller band gap that GaN. Electrons and holes moving from the GaN into the InGaN lower their energy. The larger GaN bandgap provides a barrier to stop them escaping from the quantum well. Almost all high-efficiency LEDs employ quantum well designs."
     </string>
 
 
     //quantum wells Class 2
     <string name="ClassText_quantumwells2_Page1">
-        "With the single quantum well design we learned in lesson I, there are a few mechanisms that can cause the loss of charge carriers and lower the efficiency. One of the mechanisms that cause these losses is carrier overflow.
-Carrier overflow occurs when the active region is filled with carriers, and the injection of additional carriers will not lead to an increase in the emitted light intensity."
+        "With the single quantum well design, losses of charge carriers that lower the efficiency can occur via carrier overflow. This is when the active region is filled with carriers, and the injection of additional carriers will not lead to an increase in the emitted light intensity."
     </string>
     <string name="ClassText_quantumwells2_Page2">
-        "In order to avoid this problem, high-current LEDs can employ a number of quantum wells rather than just a single quantum well."
+        "In order to avoid this problem, high-current LEDs can employ a number of quantum wells rather than just a single quantum well. Carriers which overflow from one quantum well can be captured by the next."
     </string>
     <string name="ClassText_quantumwells2_Page3">
-        "Multiple quantum wells (MQWs) are nm wide layers of a lower band gap semiconductor grown on a higher band gap barrier material."
+        "Here we see a transmission electron microscopy image of multiple quantum wells (MQWs) in a real LED. The InGaN QW layers are only a few nanometers wide. This illustrates the small volume in which the electron and hole are confined to encourage them to combine."
     </string>
     <string name="ClassText_quantumwells2_Page4">
-        "TEM image."
+        "Looking now at the band diagram representation of the multiple quantum well LED, we can see that having extra quantum wells allows more carriers to be captured and recombine. Photons are thus emitted more frequently."
     </string>
     <string name="ClassText_quantumwells2_Page5">
-        "Band diagram."
+        "The graph shows how carrier loss is minimised by increasing the number of quantum wells in LED design."
     </string>
 
 
     //quantum wells Class 3
     <string name="ClassText_quantumwells3_Page1">
-        "For an electron to be in a quantum well, it has to occupy a discrete energy level in the well. The energy levels that exist in a well must satisfy the calculation using quantum mechanics. In the diagram, the band gap is the energy difference between the bottom energy level of the conduction band and the top energy level of the valence band in the quantum well."
+        "We have said in the Conduction lessons that electrons in an atom can only occupy certain states defined by their energy and position. The Pauli Exclusion Principle tells us that in each state we can only have two electrons, one with spin up and one with spin down."
     </string>
     <string name="ClassText_quantumwells3_Page2">
-        "When an electron crosses the band gap to recombine with a hole, a photon is released. The energy and therefore wavelength of the photon depends on the band gap. One way to tune colour is to change the depth of the quantum well by changing the composition of InGaN"
+        "For an electron to be in a quantum well, it has to occupy a discrete energy level in the well. The energy levels that exist in a well must satisfy certain requirements of quantum mechanics. In this diagram, there are three available energy levels for electrons and three for holes."
     </string>
     <string name="ClassText_quantumwells3_Page3">
-        "Another way to tune colour is to change the width of the quantum well. When the well becomes wider, the energy levels lie closer together. The band gap is therefore reduced. The photon released therefore has lower energy and higher wavelength."
+        "The electron energy levels lie above the InGaN conduction band edge. The hole energy levels lie below the InGaN valence band edge."
     </string>
     <string name="ClassText_quantumwells3_Page4">
-        "One way to make a white light emitting LED involving combining 2 or more different quantum wells with different band gaps in a MQW strucutre. The LEDs emit photons at different selected wavelengths resulting in perceived white light."
+        "When an electron crosses the band gap to combine with a hole, light is released. The energy and therefore wavelength of the light depends on the band gap. One way to tune colour is to change the depth of the quantum well by changing the composition of InGaN."
+    </string>
+    <string name="ClassText_quantumwells3_Page5">
+        "Another way to tune the colour is to change the width of the quantum well. When the well becomes wider, the energy levels lie closer together. The energy difference between the electron and hole states is therefore reduced. The light emitted therefore has lower energy and longer wavelength."
+    </string>
+    <string name="ClassText_quantumwells3_Page6">
+        "One way to make a white light emitting LED involves combining 2 or more different quantum wells with different band gaps in a MQW structure. Each quantum well emits light at a different selected wavelength and the different colours combine to give white light."
+    </string>
+    <string name="ClassText_quantumwells3_Page7">
+        "However, the main way of making white LEDs currently is using a yellow phosphor cap with the LED chips underneath only producing blue light. The yellow phosphor absorbs some of this   blue light and emits many different colours of light. Our eyes view this combination of colours as white light."
     </string>
 
 

@@ -18,7 +18,7 @@
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="p and n block.svg"
-   inkscape:export-filename="C:\Users\buiba\Desktop\GaN Android App\App Creation Material\p-n juction lesson\Lesson II\page 3\8.png"
+   inkscape:export-filename="C:\Users\buiba\Documents\GitHub\LEDLabGaN\GaN Android App v2\App Creation Material\Quantum Wells Lesson\Lesson I\Gan to p and n\28.png"
    inkscape:export-xdpi="25.400002"
    inkscape:export-ydpi="25.400002">
   <defs
@@ -58,18 +58,6 @@
          style="stop-color:#808080;stop-opacity:0"
          offset="1"
          id="stop2445" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient2433">
-      <stop
-         style="stop-color:#333333;stop-opacity:1;"
-         offset="0"
-         id="stop2429" />
-      <stop
-         style="stop-color:#1a1a1a;stop-opacity:1"
-         offset="1"
-         id="stop2431" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -179,18 +167,18 @@
        xlink:href="#linearGradient2401"
        id="radialGradient2332"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.5556808,-1.718911,1.5213903,1.5515678,557.80065,1360.6224)"
-       cx="553.04266"
-       cy="-391.34406"
-       fx="553.04266"
-       fy="-391.34406"
+       gradientTransform="matrix(1.5556808,-1.718911,1.5213903,1.5515678,557.80063,1360.6224)"
+       cx="604.25623"
+       cy="-327.32037"
+       fx="604.25623"
+       fy="-327.32037"
        r="236.61921" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2147"
        id="radialGradient2374"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.94263582,0.05710267,-0.05570234,1.035948,480.70237,-2.6324412)"
+       gradientTransform="matrix(0.94263582,0.05710267,-0.05570234,1.035948,491.35362,-1.2192567)"
        cx="787.72089"
        cy="-219.45099"
        fx="787.72089"
@@ -201,23 +189,12 @@
        xlink:href="#linearGradient2147"
        id="radialGradient2376"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.94263582,0.05710267,-0.05570234,1.035948,478.51843,-3.7997202)"
+       gradientTransform="matrix(0.94263582,0.05710267,-0.05570234,1.035948,1466.4215,-43.368887)"
        cx="787.72089"
        cy="-219.45099"
        fx="787.72089"
        fy="-219.45099"
        r="236.61921" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2433"
-       id="radialGradient2435"
-       cx="224.89354"
-       cy="-231.40152"
-       fx="224.89354"
-       fy="-231.40152"
-       r="237.05683"
-       gradientTransform="matrix(1.0814443,0.64460461,-0.55303483,0.95194456,-190.63782,-164.47614)"
-       gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2447"
@@ -286,26 +263,28 @@
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2433"
-       id="radialGradient2886"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0814443,0.64460461,-0.55303483,0.95194456,-190.63782,-164.47614)"
-       cx="224.89354"
-       cy="-231.40152"
-       fx="224.89354"
-       fy="-231.40152"
-       r="237.05683" />
-    <radialGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient2546"
        id="radialGradient2888"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.95151485,1.1856167,-1.3474729,1.1646302,-375.88102,-730.23632)"
+       gradientTransform="matrix(0.95151485,1.1856167,-1.3474729,1.1646302,-365.16648,-729.51436)"
        cx="663.53162"
        cy="-331.69214"
        fx="663.53162"
        fy="-331.69214"
        r="29.669649" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1004"
+       x="-0.8236043"
+       width="2.6472086"
+       y="-2.1513801"
+       height="5.3027602">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="130.00723"
+         id="feGaussianBlur1006" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -315,7 +294,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.18762996"
-     inkscape:cx="202.058"
+     inkscape:cx="2435.6363"
      inkscape:cy="1811.8931"
      inkscape:document-units="mm"
      inkscape:current-layer="g2884"
@@ -334,7 +313,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -377,77 +356,30 @@
        id="g2884"
        transform="matrix(0.88646055,0,0,0.88638074,71.413006,10.363164)"
        style="stroke-width:1.12813258">
-      <flowRoot
-         transform="matrix(0.36056368,0,0,0.37289082,1645.2435,-1380.8065)"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.81403065"
-         id="flowRoot2220"
-         xml:space="preserve"><flowRegion
-           style="fill:#ffffff;stroke-width:0.81403065"
-           id="flowRegion2222"><rect
-             style="fill:#ffffff;stroke-width:0.81403065"
-             y="1693.3184"
-             x="-2571.4287"
-             height="508.57144"
-             width="1697.1428"
-             id="rect2224" /></flowRegion><flowPara
-           style="font-size:192px;fill:#ffffff;stroke:#ffffff;stroke-width:0.81403065"
-           id="flowPara2226">n-GaN</flowPara></flowRoot>      <flowRoot
-         transform="matrix(0.36056369,0,0,0.37289081,1078.8836,-1392.7973)"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.81403065"
-         id="flowRoot2238"
-         xml:space="preserve"><flowRegion
-           style="fill:#ffffff;stroke-width:0.81403065"
-           id="flowRegion2234"><rect
-             style="fill:#ffffff;stroke-width:0.81403065"
-             y="1693.3184"
-             x="-2571.4287"
-             height="508.57144"
-             width="1697.1428"
-             id="rect2232" /></flowRegion><flowPara
-           style="font-size:192px;fill:#ffffff;stroke:#ffffff;stroke-width:0.81403065"
-           id="flowPara2236">p-GaN</flowPara></flowRoot>      <g
+      <g
          id="g2922"
          transform="matrix(1.3084441,0,0,1.3178553,-163.05124,43.644439)"
          style="stroke-width:0.8591097">
+        <rect
+           transform="matrix(0.91313561,0,0,0.85422717,-400.3895,-74.29549)"
+           style="stroke-width:2.91820359;fill:url(#radialGradient2332);fill-opacity:1;opacity:1;stroke:#ffffff;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect3972"
+           width="920.00354"
+           height="608.24017"
+           x="557.38733"
+           y="-509.98743"
+           rx="1.8695922"
+           ry="1.9844282" />
         <g
-           id="g2303"
-           transform="matrix(0.87186127,0,0,0.85467846,525.18047,-63.097201)"
-           style="stroke-width:0.99523026">
-          <g
-             transform="translate(19.050001,-0.3211577)"
-             id="g4836"
-             style="fill:url(#radialGradient2435);fill-opacity:1;stroke-width:0.99523026"
-             inkscape:transform-center-x="46.864409"
-             inkscape:transform-center-y="-22.933647">
-            <rect
-               ry="1.9833807"
-               rx="1.9580998"
-               y="-522.49933"
-               x="-3.9594872"
-               height="608.24017"
-               width="470.63834"
-               id="rect3976"
-               style="opacity:1;fill:url(#radialGradient2886);fill-opacity:1;stroke:#ffffff;stroke-width:2.98569059;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-          </g>
-        </g>
-        <g
-           style="stroke-width:0.8591097"
-           id="g2838">
+           style="stroke-width:0.8591097;"
+           id="g2838"
+           transform="translate(-902.08948,33.801058)">
           <g
              id="g2372"
              style="fill:url(#radialGradient2376);fill-opacity:1;stroke-width:0.97273439"
              transform="matrix(0.9131356,0,0,0.85422718,-400.3895,-74.295481)">
-            <rect
-               style="opacity:1;fill:url(#radialGradient2332);fill-opacity:1;stroke:#ffffff;stroke-width:2.91820359;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect3972"
-               width="470.63834"
-               height="608.24017"
-               x="557.38733"
-               y="-509.98743"
-               rx="1.8695923"
-               ry="1.9844282" />
             <g
-               transform="translate(-2.1839387,-1.1672764)"
+               transform="translate(975.0679,-42.149628)"
                id="g2358"
                style="fill:url(#radialGradient2374);stroke-width:0.97273439">
               <ellipse
@@ -480,8 +412,8 @@
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-313.25531"
-                 cx="632.01001" />
+                 cy="-322.58127"
+                 cx="602.14087" />
               <ellipse
                  cx="617.52655"
                  cy="-457.24716"
@@ -499,21 +431,13 @@
                  cy="-492.27118"
                  cx="721.75848" />
               <ellipse
-                 cx="952.78522"
-                 cy="-390.81067"
-                 rx="31.792717"
-                 ry="33.952366"
-                 transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
-                 style="opacity:1;fill:#18184b;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="ellipse2766" />
-              <ellipse
                  id="ellipse2768"
                  style="opacity:1;fill:#18184b;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-91.75827"
-                 cx="938.58447" />
+                 cy="-441.75626"
+                 cx="796.57758" />
               <ellipse
                  cx="779.7923"
                  cy="-332.4859"
@@ -528,19 +452,19 @@
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-206.76994"
-                 cx="840.33051" />
+                 cy="-217.84975"
+                 cx="794.35236" />
               <ellipse
-                 cx="946.73981"
-                 cy="-202.19241"
+                 cx="687.13495"
+                 cy="-264.09717"
                  rx="31.792717"
                  ry="33.952366"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  style="opacity:1;fill:#18184b;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                  id="ellipse2774" />
               <ellipse
-                 cx="802.21863"
-                 cy="-63.938557"
+                 cx="766.62097"
+                 cy="-31.837442"
                  rx="31.792717"
                  ry="33.952366"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
@@ -552,11 +476,11 @@
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-166.14082"
-                 cx="739.69" />
+                 cy="-139.5025"
+                 cx="701.12323" />
               <ellipse
-                 cx="889.68024"
-                 cy="-503.4957"
+                 cx="702.09821"
+                 cy="-396.13086"
                  rx="31.792717"
                  ry="33.952366"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
@@ -568,27 +492,19 @@
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-227.61403"
-                 cx="1134.6748" />
-              <ellipse
-                 cx="1137.1254"
-                 cy="-382.09006"
-                 rx="31.792717"
-                 ry="33.952366"
-                 transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
-                 style="opacity:1;fill:#521919;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                 id="ellipse2786" />
+                 cy="-156.63295"
+                 cx="1237.3218" />
               <ellipse
                  id="ellipse2788"
                  style="opacity:1;fill:#521919;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-265.5578"
-                 cx="1335.0541" />
+                 cy="-309.57382"
+                 cx="1400.6874" />
               <ellipse
-                 cx="1278.4088"
-                 cy="-161.23466"
+                 cx="1354.5116"
+                 cy="-184.72076"
                  rx="31.792717"
                  ry="33.952366"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
@@ -600,11 +516,11 @@
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-457.16583"
-                 cx="1403.3164" />
+                 cy="-540.98578"
+                 cx="1408.0485" />
               <ellipse
-                 cx="1298.6379"
-                 cy="-450.16873"
+                 cx="1338.8989"
+                 cy="-421.72296"
                  rx="31.792717"
                  ry="33.952366"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
@@ -616,11 +532,11 @@
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-345.11816"
-                 cx="1248.5991" />
+                 cy="-289.96875"
+                 cx="1291.6628" />
               <ellipse
-                 cx="1154.5464"
-                 cy="-85.151367"
+                 cx="1308.5898"
+                 cy="-50.158096"
                  rx="31.792717"
                  ry="33.952366"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
@@ -635,8 +551,8 @@
                  cy="-101.76948"
                  cx="1403.1578" />
               <ellipse
-                 cx="1125.0132"
-                 cy="-502.85977"
+                 cx="1220.9237"
+                 cy="-408.78336"
                  rx="31.792717"
                  ry="33.952366"
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
@@ -648,13 +564,41 @@
                  transform="matrix(0.9977702,0.06674305,-0.05486008,0.99849405,0,0)"
                  ry="33.952366"
                  rx="31.792717"
-                 cy="-540.50629"
-                 cx="1250.9891" />
+                 cy="-512.74799"
+                 cx="1259.1873" />
             </g>
           </g>
         </g>
       </g>
-      <g
+      <flowRoot
+         transform="matrix(0.36056368,0,0,0.37289082,1697.7381,-956.6246)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.81403065;"
+         id="flowRoot2220"
+         xml:space="preserve"><flowRegion
+           style="fill:#ffffff;stroke-width:0.81403065"
+           id="flowRegion2222"><rect
+             style="fill:#ffffff;stroke-width:0.81403065"
+             y="1693.3184"
+             x="-2571.4287"
+             height="508.57144"
+             width="1697.1428"
+             id="rect2224" /></flowRegion><flowPara
+           style="font-size:192px;fill:#ffffff;stroke:#ffffff;stroke-width:0.81403065"
+           id="flowPara2226">n-GaN</flowPara></flowRoot>      <flowRoot
+         transform="matrix(0.36056369,0,0,0.37289081,977.07588,-963.28418)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.81403065;"
+         id="flowRoot2238"
+         xml:space="preserve"><flowRegion
+           style="fill:#ffffff;stroke-width:0.81403065"
+           id="flowRegion2234"><rect
+             style="fill:#ffffff;stroke-width:0.81403065"
+             y="1693.3184"
+             x="-2571.4287"
+             height="508.57144"
+             width="1697.1428"
+             id="rect2232" /></flowRegion><flowPara
+           style="font-size:192px;fill:#ffffff;stroke:#ffffff;stroke-width:0.81403065"
+           id="flowPara2236">p-GaN</flowPara></flowRoot>      <g
          style="stroke-width:0.93883979"
          id="g2475"
          transform="matrix(1.2134361,0,0,1.1899268,869.54089,-62.205426)" />
@@ -669,46 +613,53 @@
              x="1556.2546"
              y="3074.5879" /></flowRegion><flowPara
            id="flowPara2946" /></flowRoot>      <ellipse
-         cx="483.09235"
-         cy="-255.81425"
+         cx="1327.8899"
+         cy="-201.03896"
          rx="34.863503"
          ry="32.202393"
          transform="matrix(0.9983341,0.05769776,-0.06346395,0.99798413,0,0)"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.4972403;stroke-miterlimit:4;stroke-dasharray:27.97792238, 3.49724031;stroke-dashoffset:0;stroke-opacity:1"
          id="ellipse4136" />
-      <path
-         style="fill:none;stroke:#999999;stroke-width:1.12813258;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 270.38642,-365.07743 c 0,0 40.49379,39.37249 31.49517,70.8705 -8.99862,31.49801 -57.36619,73.12037 -50.61724,141.741 6.74898,68.620659 120.35654,56.246433 133.85448,35.99773 13.49793,-20.24871 85.48688,-222.73589 123.731,-143.99088 5.74155,11.82191 8.49155,24.48052 8.83613,37.21834 1.95064,72.10803 -73.18322,146.754613 -119.0692,86.52383 -53.99172,-70.87053 -176.59791,-146.24075 -231.71445,-71.99545 -55.11654,74.24529 -46.11793,200.2373059 46.11792,200.2373059 92.23585,0 196.84479,-266.6080959 201.3441,-289.1066759 4.49931,-22.49855 3.37449,-309.35536 -149.60204,-208.11178 -152.97652,101.24359 -163.09996,172.11409 -97.85998,187.86308 65.23998,15.74899 12.3731,210.36166 -61.86551,146.24072 -74.238599,-64.12095 -119.231694,-257.60867 -82.112391,-251.98403 37.119303,5.62467 79.862741,95.61895 67.489643,137.24132 -12.373103,41.62236 -66.364817,56.24643 -33.744822,139.49113 32.619993,83.244725 101.23446,147.36566751 149.60204,79.869931 48.36757,-67.495711 13.49792,-303.730711 -11.24828,-332.978881 -24.7462,-29.24814 -134.979278,-96.74384 -33.74482,-129.36677 101.23448,-32.62294 265.45927,146.24071 274.45789,163.11466 8.9986,16.87391 -102.35931,-69.7456 -78.73793,29.24812 23.62137,98.99371 28.12068,228.36052 106.85861,115.86766"
-         id="path2968"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cssssssssssssssssssssc" />
-      <path
-         style="fill:none;stroke:#999999;stroke-width:1.12813257;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 837.29944,-308.831 c -8.99862,42.74728 32.62,60.74615 25.87101,65.24586 -6.74895,4.49972 69.73931,132.74157 -48.36756,64.12092 -118.10687,-68.62063 -62.99035,102.368508 -17.99725,148.490587 44.99311,46.122079 142.85307,15.74899 159.72549,-25.873343 16.87242,-41.622364 112.48277,-13.499148 22.49655,-74.245294 -89.98618,-60.74615 -114.7324,-56.24643 -208.09308,-107.99315 -93.36065,-51.74672 -141.72824,-1.12492 -96.73514,-83.24473 44.99308,-82.11977 37.11931,-43.8722 52.86688,-1.12492 15.74758,42.74729 106.85861,101.24356 -7.8738,106.86823 -114.73238,5.62464 -165.34962,-95.61896 -158.60064,-139.49116 6.74896,-43.87224 -42.74343,-88.86937 15.74758,-91.11924 58.49101,-2.24984 110.2331,67.49574 131.6048,-1.12492 21.37173,-68.62063 -160.85031,-201.36222 -122.60618,-134.99144 38.24413,66.37081 154.10135,115.86765 205.84341,102.36851 51.74206,-13.49915 58.49101,-140.61607 125.98067,-102.36851 67.48964,38.24759 139.47862,94.49403 42.74344,96.74387 -96.73517,2.24987 -62.99035,-87.74444 -33.74481,-33.74785 29.2455,53.99656 94.48549,55.12151 16.87239,93.36908 -77.61307,38.24757 -163.09998,-5.62464 -91.11101,52.87164 71.98894,58.49627 222.71581,29.24813 88.86137,68.62065 -133.85447,39.37249 -273.33308,60.74615 -266.5841,152.99028 6.74895,92.244159 -53.99173,141.741003 74.23862,127.116934 128.23031,-14.624069 206.96823,-7.87448 50.6172,-74.245295 -156.35099,-66.370789 -245.21236,16.873941 -178.84755,-88.869339 66.36485,-105.7433 142.8531,75.37022 255.33584,74.24527 112.48274,-1.12492 235.08893,118.1175318 137.22893,-38.24757 -97.85999,-156.36507 67.4896,-145.1158 -147.35237,-134.99144 -214.84204,10.12438 -111.35792,8.99943 -206.96824,42.74731 -95.61034,33.74786 -104.60897,3.37477 -104.60897,3.37477"
-         id="path2970"
-         inkscape:connector-curvature="0" />
-      <ellipse
-         transform="matrix(1.2111313,0.07330512,-0.07212656,1.1878229,869.54088,-62.205431)"
-         style="stroke-width:1.78379786;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="ellipse2465"
-         cx="-248.44032"
-         cy="-124.50607"
-         rx="27.914644"
-         ry="27.523043" />
+      <g
+         id="g919"
+         transform="translate(757.19517,-25.45423)">
+        <ellipse
+           ry="27.523043"
+           rx="27.914644"
+           cy="-124.50607"
+           cx="-248.44032"
+           id="ellipse2465"
+           style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:1.78379786;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(1.2111313,0.07330512,-0.07212656,1.1878229,869.54088,-62.205431)" />
+        <flowRoot
+           transform="matrix(0.5691285,4.6754718e-4,-0.00439197,0.49779537,78.190163,-895.18967)"
+           style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.56077743"
+           id="flowRoot2473"
+           xml:space="preserve"><flowRegion
+             style="font-size:192px;fill:#ffffff;stroke-width:0.15149274"
+             id="flowRegion2469"><rect
+               style="font-size:192px;fill:#ffffff;stroke-width:0.56077743"
+               y="1224.7468"
+               x="844.28571"
+               height="242.85715"
+               width="245.71428"
+               id="rect2467" /></flowRegion><flowPara
+             style="font-size:192px;fill:#ffffff;stroke-width:0.15149274"
+             id="flowPara2471">-</flowPara></flowRoot>      </g>
       <flowRoot
          xml:space="preserve"
-         id="flowRoot2473"
-         style="stroke-width:0.56077743;font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         transform="matrix(0.5691285,4.6754718e-4,-0.00439197,0.49779537,78.190163,-895.18967)"><flowRegion
-           id="flowRegion2469"
-           style="font-size:192px;fill:#ffffff;stroke-width:0.15149274"><rect
-             id="rect2467"
-             width="245.71428"
-             height="242.85715"
-             x="844.28571"
-             y="1224.7468"
-             style="font-size:192px;fill:#ffffff;stroke-width:0.56077743" /></flowRegion><flowPara
-           id="flowPara2471"
-           style="font-size:192px;fill:#ffffff;stroke-width:0.15149274">-</flowPara></flowRoot>    </g>
+         id="flowRoot930"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.81403065;filter:url(#filter1004)"
+         transform="matrix(0.36056368,0,0,0.37289082,799.77876,-1519.7994)"><flowRegion
+           id="flowRegion926"
+           style="fill:#ffffff;stroke-width:0.81403065"><rect
+             id="rect924"
+             width="1697.1428"
+             height="508.57144"
+             x="-2571.4287"
+             y="1693.3184"
+             style="fill:#ffffff;stroke-width:0.81403065" /></flowRegion><flowPara
+           id="flowPara928"
+           style="font-size:192px;fill:#ffffff;stroke:#ffffff;stroke-width:0.81403065">GaN</flowPara></flowRoot>    </g>
   </g>
 </svg>

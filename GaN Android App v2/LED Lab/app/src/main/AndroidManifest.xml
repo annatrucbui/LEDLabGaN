@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_cambridge_led_lab_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".QuizPage" />
+        <activity android:name=".Game"></activity>
         <activity android:name=".ExperimentTemperatureDependencePType" />
         <activity android:name=".ExperimentTemperatureDependenceNType" />
         <activity android:name=".ExperimentTemperatureDependenceIntrinsic" />

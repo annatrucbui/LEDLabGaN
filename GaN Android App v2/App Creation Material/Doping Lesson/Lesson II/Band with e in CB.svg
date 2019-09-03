@@ -16,7 +16,7 @@
    id="svg8"
    sodipodi:docname="Band with e in CB.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="C:\Users\buiba\Desktop\GaN Android App\App Creation Material\Doping Lesson\Lesson II\page 2\1.png"
+   inkscape:export-filename="C:\Users\buiba\Documents\GitHub\LEDLabGaN\GaN Android App v2\App Creation Material\Doping Lesson\Lesson II\page 2\2.png"
    inkscape:export-xdpi="25.400002"
    inkscape:export-ydpi="25.400002">
   <defs
@@ -149,6 +149,21 @@
          offset="1"
          id="stop26053" />
     </linearGradient>
+    <marker
+       inkscape:stockid="EmptyTriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleInM-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path999-9"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ff2a2a;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,1.8,0)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -157,18 +172,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="1114.4408"
-     inkscape:cy="1570.6452"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="1896.7414"
+     inkscape:cy="1639.3356"
      inkscape:document-units="mm"
      inkscape:current-layer="g2602"
      showgrid="false"
      inkscape:pagecheckerboard="true"
-     inkscape:window-width="2256"
-     inkscape:window-height="1410"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1440"
+     inkscape:window-height="1497"
+     inkscape:window-x="-10"
+     inkscape:window-y="245"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -177,7 +192,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -294,7 +309,38 @@
                x="214.15234"
                y="356.44705" /></flowRegion><flowPara
              id="flowPara1813"
-             style="font-weight:normal;font-size:192px;fill:#ffffff">E</flowPara></flowRoot>      </g>
+             style="font-weight:normal;font-size:192px;fill:#ffffff">E</flowPara></flowRoot>        <path
+           style="fill:#ff2a2a;fill-opacity:1;stroke:#ff0000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#EmptyTriangleInM-6)"
+           d="m 719.35444,-156.05309 -340.70397,1.64155"
+           id="path843-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot1744"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26238281"
+           transform="matrix(0.99824818,0,0,1.0186282,-1269.7653,-2323.9049)"><flowRegion
+             id="flowRegion1746"
+             style="stroke-width:0.26238281"><rect
+               id="rect1748"
+               width="1143.4927"
+               height="145.46196"
+               x="1688.9751"
+               y="2077.7471"
+               style="stroke-width:0.26238281" /></flowRegion><flowPara
+             id="flowPara1750"
+             style="fill:#ff0000;stroke-width:0.26238281">electric field</flowPara></flowRoot>        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="527.88458"
+           y="394.61499"
+           id="text1760"><tspan
+             sodipodi:role="line"
+             id="tspan1758"
+             x="527.88458"
+             y="394.61499"
+             style="stroke-width:0.26458332">_</tspan></text>
+      </g>
       <rect
          style="opacity:1;fill:#483e37;fill-opacity:1;stroke:#ffffff;stroke-width:2.5999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect1850"

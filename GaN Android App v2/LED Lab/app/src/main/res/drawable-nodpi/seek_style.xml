@@ -15,7 +15,9 @@
     <item android:id="@android:id/secondaryProgress">
         <clip>
             <shape>
+
                 <corners android:radius="5dip" />
+
                 <gradient
                     android:startColor="@color/red"
                     android:centerColor="@color/red"
@@ -30,6 +32,7 @@
     <item android:id="@android:id/progress">
         <clip>
             <shape>
+
                 <corners android:radius="5dip" />
                 <gradient
                     android:startColor="@color/red"

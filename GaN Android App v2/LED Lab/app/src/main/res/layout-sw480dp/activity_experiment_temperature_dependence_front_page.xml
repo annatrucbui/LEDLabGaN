@@ -7,196 +7,166 @@
     android:background="@drawable/background_laboratory">
 
     <LinearLayout
-        android:id="@+id/TitleBanner"
-        android:layout_width="399dp"
-        android:layout_height="109dp"
+        android:id = "@+id/TitleBanner"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:orientation="horizontal"
+        android:layout_marginEnd="5dp"
+
+        android:layout_marginStart="5dp"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1">
+        app:layout_constraintTop_toTopOf="parent">
 
         <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
             android:id="@+id/backButton"
+
+            android:background="@drawable/ic_button_back"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+
             android:layout_weight="1"
-            android:background="@drawable/ic_button_back"
+
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            />
 
         <include
             layout="@layout/title_bar"
+
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_weight="5"
+            android:layout_marginTop="10dp"
+
             app:layout_constraintLeft_toRightOf="@+id/backButton"
             app:layout_constraintRight_toLeftOf="@+id/homeButton"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
 
         <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
             android:id="@+id/homeButton"
+
+            android:background="@drawable/ic_button_home"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+
             android:layout_weight="1"
-            android:background="@drawable/ic_button_home"
+
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            />
 
     </LinearLayout>
 
 
     <TextView
-        android:id="@+id/TemperatureDependenceIntrinsicTitle"
+        android:id="@+id/TemperatureDependenceFrontpageTitle"
+
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
 
-        android:text="@string/IntrinsicTitle"
+        android:text="@string/TemperatureDependenceFrontPage"
         android:textColor="@color/indigo"
         android:textSize="28sp"
 
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TitleBanner" />
 
-    <ImageView
-        android:id="@+id/IntrinsicBandDiagram"
-        android:layout_width="279dp"
-        android:layout_height="279dp"
-        android:layout_marginLeft="40sp"
-        android:layout_marginRight="40sp"
+    <TextView
+        android:id="@+id/TemperatureDependenceFrontpageDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:gravity="center"
+        android:text="@string/TemperatureDependenceFrontPageDescription"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TemperatureDependenceIntrinsicTitle"
-        app:srcCompat="@drawable/experiment_temperature_dependence_intrinsic_0" />
+        app:layout_constraintTop_toBottomOf="@+id/TemperatureDependenceFrontpageTitle" />
 
-    <ImageView
-        android:id="@+id/IntrinsicFullPlot"
-        android:layout_width="254sp"
-        android:layout_height="0dp"
-        android:layout_marginLeft="0sp"
-        android:layout_marginRight="0sp"
-        app:layout_constraintBottom_toBottomOf="@id/IntrinsicAxes"
-        app:layout_constraintLeft_toLeftOf="@id/IntrinsicAxes"
-        app:layout_constraintRight_toRightOf="@id/IntrinsicAxes"
-        app:layout_constraintTop_toTopOf="@id/IntrinsicAxes"
-        app:srcCompat="@drawable/experiment_temperature_dependence_intrinsic_fullplot" />
-
-    <ImageView
-        android:id="@+id/IntrinsicAxes"
-        android:layout_width="254dp"
-        android:layout_height="257dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="10sp"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="179dp"
+        android:layout_height="654dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="280dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/IntrinsicBandDiagram"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/experiment_temperature_dependence_graph_plot_axes" />
+        app:layout_constraintTop_toBottomOf="@+id/TemperatureDependenceFrontpageDescription"
+        app:layout_constraintVertical_bias="0.39">
 
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/IntrinsicSemiconductorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/ic_experiment_temperature_dependence_frontpage_intrinsic" />
 
-    <ImageView
-        android:id="@+id/IntrinsicThermometer"
-        android:layout_width="141dp"
-        android:layout_height="228dp"
+        <TextView
+            android:id="@+id/IntrinsicSemiconductorButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/IntrinsicButton"
+            android:textColor="#8b0000"
+            android:textSize="18sp" />
 
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="10sp"
-        android:background="@drawable/thermometer1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.375"
-        app:layout_constraintStart_toEndOf="@+id/IntrinsicAxes"
-        app:layout_constraintTop_toBottomOf="@+id/IntrinsicBandDiagram"
-        app:layout_constraintVertical_bias="0.269" />
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/NTypeSemiconductorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_experiment_temperature_dependence_frontpage_ntype" />
 
+        <TextView
+            android:id="@+id/NTypeSemiconductorButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/nTypeButton"
+            android:textColor="#8b0000"
+            android:textSize="20sp" />
 
-    <SeekBar
-        android:id="@+id/TemperatureSliderIntrinsic"
-        style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:layout_width="215dp"
-        android:layout_height="0dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginBottom="40sp"
-        android:max="20"
-        android:progress="0"
-        android:progressDrawable="@drawable/seek_style"
-        android:progressTint="@color/red"
-        android:rotation="-90"
-        android:theme="@style/Widget.MaterialComponents.Snackbar"
-        android:thumbTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.96"
-        app:layout_constraintStart_toEndOf="@+id/IntrinsicAxes"
-        app:layout_constraintTop_toBottomOf="@+id/IntrinsicBandDiagram"
-        app:layout_constraintVertical_bias="0.0" />
+        <cambridge.materials.galliumnitride.app.ledlab.SquareFromWidthImageButton
+            android:id="@+id/PTypeSemiconductorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_experiment_temperature_dependence_frontpage_ptype" />
 
-    <TextView
-        android:id="@+id/IntrinsicMaxTemperature"
-        android:layout_width="40dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="@string/MaxTemp"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/IntrinsicThermometer"
-        app:layout_constraintTop_toTopOf="@+id/IntrinsicThermometer" />
+        <TextView
+            android:id="@+id/PTypeSemiconductorButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/pTypeButton"
+            android:textColor="#8b0000"
+            android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/IntrinsicMinTemperature"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-
-        android:layout_marginBottom="8dp"
-        android:text="@string/AbsoluteZero"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/IntrinsicThermometer"
-        app:layout_constraintEnd_toEndOf="@+id/IntrinsicThermometer"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TemperatureSlider" />
-
-
-    <TextView
-        android:id="@+id/TemperatureIntrinsicOutput"
-        android:layout_width="53sp"
-        android:layout_height="29dp"
-        android:layout_marginTop="18dp"
-
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="18dp"
-        android:background="#8b0000"
-        android:padding="2dp"
-        android:paddingStart="4dp"
-        android:paddingLeft="4dp"
-        android:paddingEnd="0dp"
-        android:paddingRight="0dp"
-        android:text="@string/AbsoluteZero"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/IntrinsicThermometer"
-        app:layout_constraintEnd_toEndOf="@+id/IntrinsicThermometer"
-        app:layout_constraintTop_toTopOf="@+id/IntrinsicThermometer" />
-
-
-
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>
+
