@@ -12,8 +12,8 @@ android {
         applicationId "cambridge.materials.galliumnitride.app.ledlab"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 7
-        versionName "1.6"
+        versionCode 8
+        versionName "1.7"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
